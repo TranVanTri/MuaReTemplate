@@ -15,6 +15,11 @@ body {
     color: inherit;
 }
 
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
 
 /*************Section All category*****************/
 
@@ -121,6 +126,135 @@ body {
     position: relative;
     bottom: 0.7rem;
     text-decoration: none;
+}
+
+.promoteProduct .wrap-img{
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.promoteProduct .wrap-img .qv-button-container {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    /*opacity: 0;*/
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    background: #ea2349;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.promoteProduct .wrap-img .qv-button-container:hover{
+    background: #2c5987;
+}
+
+.promoteProduct .wrap-img .qv-button-container a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.promoteProduct .wrap-img .qv-button-container a i{
+    margin-top: 12px;
+}
+
+.promoteProduct .item:hover .wrap-img .qv-button-container{
+
+    transform: scale(1);
+}
+
+.promoteProduct .item{
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px #dfdfdf;
+    box-shadow: 0 1px 3px #dfdfdf;
+}
+
+.promoteProduct .item:hover {
+    background: #e7e7f1;
+}
+
+
+
+.info {
+    text-align: center;
+    padding: 0 12px 0px 12px;
+}
+.info-inner{
+
+}
+
+.info-inner .title_products_related {
+    margin: 15px 3px 10px;
+    height: 43px;
+    overflow: hidden;
+}
+
+.price-box {
+    margin: 3px 0;
+    min-height: 20px;
+}
+
+.special-price {
+    margin: 0;
+    display: inline-block;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e4e4e4;
+    padding: 5px;
+}
+
+.special-price .price {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 900;
+    font-family: Roboto-Regular;
+}
+
+.button {
+    font-family: Roboto,sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 5px 12px;
+    -webkit-transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+    transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+}
+
+button.button span {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.promoteProduct button.button.btn-cart {
+    margin: 7px 8px 10px;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.promoteProduct .item:hover button.button.btn-cart{
+    border: 1px solid #ea2349;
+    background: #ea2349;
+    padding: 6px 15px;
+    color: #ffffff;
+}
+.promoteProduct .item:hover button.button.btn-cart a{
+    color: #fff;
+}
+
+
+.actions a.order {
+    color: #4a4a4a;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    font-size: 11px;
 }
 
 /************************End Sp Doc Dao*****************************/
