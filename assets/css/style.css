@@ -298,6 +298,25 @@ padding-right: 5px;
 
 }
 
-/* Kết thúc tin đăng mới nhát*/
+/* Kết thúc tin đăng mới nhất*/
+
+
+
+
+/*-------------- Phẩn More information - xem tất cả tin đăng*---------------*/
+
+.most-post{
+    text-align: center;
+    background: #e6e6e6;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.all-post{
+    display: inline-block;
+    margin: unset;
+    font-size: unset;
+}
+
+/*   Kết thúc Phẩn More information - xem tất cả tin đăng*------*/
 
 
