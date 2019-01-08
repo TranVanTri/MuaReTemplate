@@ -103,7 +103,27 @@ body {
 
 
 /************* End Section All category*****************/
+/************************Sp Doc Dao*****************************/
+.san-pham-doc-dao, .chiasemoicuacongdong{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
+.large-title.promote{
+    width: 90%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.view-promote-page{
+    font-size: 14px;
+    position: relative;
+    bottom: 0.7rem;
+    text-decoration: none;
+}
+
+/************************End Sp Doc Dao*****************************/
 
 /*  ---------------------- Sản phẩm mới nhất  ----------------------*/
 
@@ -143,14 +163,6 @@ body {
     font-weight: bold;
 }
 
-.chiasemoicuacongdong{
-    float: left;
-    margin-top: 8px;
-    margin-bottom: 10px;
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-
-}
 .right-info {
     width: auto;
     vertical-align: top;
