@@ -234,29 +234,69 @@ padding-right: 5px;
 }
 
 .recentNew{
-    padding: 5px 10px;
+    padding: 5px 10px 0 5px;
     width: 48%;
     display: block;
     float: left;
     border: 1px solid #dfdfdf;
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin: 0px 0 10px 10px;
     background: #f9f9f9;
     border-radius: 5px;
     height: auto;
-    margin-left: 10px;
+    
 }
 
+.tieudetintuc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 24px;
+
+}
+
+.tieudetintuc a{
+    text-decoration: none;
+}
+
+.noidungTin{
+    display: table;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+.canTraiNoiDung{
+    margin: 0px;
+    padding: 0;
+    text-align: justify;
+    font-size: 13px;
+    color: #666;
+    display: table-cell;
+    width: auto;
+    position: relative;
+    vertical-align: top;
+    /*font-family: Roboto-Regular;*/
+}
 
  .imgTinDangMoiNhat{
-    width: 150px;
-    height: 150px;
     display: table-cell;
     vertical-align: top;
     display: inline;
-    float: right;
  }
 
+ .imgTinDangMoiNhat img{
+    border-radius: 10px;
+}
+
+.post-address
+{
+    margin: 0;
+    padding-top: 10px;
+    display: table;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
 
 /* Kết thúc tin đăng mới nhát*/
 
