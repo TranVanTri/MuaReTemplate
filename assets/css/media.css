@@ -1,0 +1,12 @@
+@media (min-width: 1170px){
+	.all-category .category-row .icon-category {
+	    margin-right: 11px;
+	}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+	.all-category .category-row .category-col {
+	    width: 16%;
+	}
+
+}

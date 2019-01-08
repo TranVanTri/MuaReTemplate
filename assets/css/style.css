@@ -1,3 +1,23 @@
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+/*************Section All category*****************/
+
 .notification-home{
     border: 1px solid #e2c822;
     line-height: 30px;
@@ -5,9 +25,81 @@
     background: #fff9d7;
     padding-left: 13px;
     float: left;
-    width: 100%;
+    width: 845px;
     margin-bottom: 10px;
     margin-left: 5px;
     font-size: 13px;
 }
+
+.notification-home a{
+    color: #000;
+    text-decoration: none;
+}
+.all-category{
+    width: 100%;
+}
+
+.all-category .category-row{
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.all-category .category-row .category-col{
+    width: 17%;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    display: inline-table;
+    padding: 0;
+    float: left;
+}
+
+
+.all-category .category-row .icon-category {
+    font-family: Roboto-Bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #c1e0ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: block;
+}
+
+.all-category .category-row .icon-category:hover {
+    border: 1px solid #f39eae;
+    color: #ff8000;
+}
+
+.all-category .category-row .icon-category .icon-c {
+    width: 85px;
+    height: 49px;
+    margin: 15px 20px 5px;
+}
+
+.title-category h2 {
+    font-family: Roboto-Bold;
+    font-size: 12px;
+    line-height: 1.6;
+    height: 42px;
+    /*margin: 0 10px;*/
+    padding: 0;
+    font-weight: bold;
+}
+
+.all-category .category-row .icon-category .total-post {
+    font-size: 12px;
+    font-family: Roboto-Regular;
+    text-transform: lowercase;
+    color: #ea2349;
+    margin: 0 15px 15px;
+}
+
+
+
+/************* End Section All category*****************/
 
