@@ -111,7 +111,7 @@ body {
     padding: 1px;
 }
 
-.card{
+.cardcard{
     margin: 5px;
     margin-left: 0px;
     border: 4px;
@@ -214,4 +214,38 @@ padding-right: 5px;
 }
 
 /* kết thúc chia sẽ mới của cộng dồng */
+
+
+/*Tin đăng mới nhất*/
+.allNews{
+    margin: 5px;
+}
+
+.recentNew{
+    padding: 5px 10px;
+    width: 48%;
+    display: block;
+    float: left;
+    border: 1px solid #dfdfdf;
+    margin-right: 0;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+ .imgTinDangMoiNhat{
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    vertical-align: top;
+    display: inline;
+    float: right;
+ }
+
+
+/* Kết thúc tin đăng mới nhát*/
+
 
