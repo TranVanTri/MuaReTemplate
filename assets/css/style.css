@@ -11,3 +11,113 @@
     font-size: 13px;
 }
 
+
+/*  ---------------------- Sản phẩm mới nhất  ----------------------*/
+
+.card-footer {
+    padding: 1px;
+}
+
+.card{
+    margin: 5px;
+    margin-left: 0px;
+    border: 4px;
+}
+
+/*  Kết thúc sản phẩm mới nhất  */
+
+/*  ---------------------- chia sẽ mới của cộng dồng ----------------*/
+
+.large-title{
+    margin: 0 0 10px 0;
+    border-top: 0;
+    padding-top: 0;
+    border-left: 4px solid #ff5400;
+    height: 20px;
+    position: relative;
+    border-bottom: 2px dotted #c5c4c4;
+}
+.large-title span {
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    color: #ea2349;
+    text-transform: uppercase;
+    background: #fff;
+    left: 0;
+    padding-left: 5px;
+    padding-right: 4px;
+    
+}
+
+.chiasemoicuacongdong{
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+
+}
+.right-info {
+    width: auto;
+    vertical-align: top;
+    padding-left: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px 11px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px #dfdfdf;
+    box-shadow: 0 1px 1px #dfdfdf;
+    display: table-cell;
+}
+
+.new-title{
+    margin-bottom: 5px;
+}
+.new-items{
+    width: 100%;
+    float: left;
+  /*  display: table;*/
+    border-radius: 5px;
+    padding-left: 5px;
+padding-right: 5px;
+}
+.new-title{
+    font-family: Roboto-Bold;
+    font-size: 14px;
+    color: #176093;
+}
+
+.message_new{
+    font-size: 13px;
+}
+.message_sep {
+    background: url("../images/trangchu/quote_sep.jpg") no-repeat;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    display: block;
+    bottom: -7px;
+    left: 25px;
+}
+/*hình ảnh thu nhỏ*/
+.chip {
+    display: inline-block;
+    padding: 0 0 0 0;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    font-size: 13px;
+
+}
+
+.chip img {
+    border: 0;
+   vertical-align: middle;
+   width: 30px; 
+   height: 30px; 
+   border-radius: 50%;
+
+}
+
+/* kết thúc chia sẽ mới của cộng dồng */
+ 
