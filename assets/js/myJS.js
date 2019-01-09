@@ -36,4 +36,17 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	//khi load trang login, hide muc đăng ký đi
+	$(document).ready(function() {
+    	$("#dangkysection").hide();
+	});
+
+	$( "#buttonDangKy" ).click(function() {
+	  $("#dangnhapsection").hide();
+	  $("#dangkysection").show();
+	  $("#buttonDangKy").hide();
+	  $(".radioTypeLogin").hide();
+	});
+
 });

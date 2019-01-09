@@ -730,3 +730,122 @@ padding-right: 5px;
 /*   Kết thúc Phẩn More information - xem tất cả tin đăng*------*/
 
 
+/*-------------------------------      Trang khách hàng login */
+.modal-content{
+    border-radius: 0;
+    background: transparent;
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+#title-login{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.login-group{
+        padding: 20px 35px;
+    min-height: 330px;
+}
+
+.radioTypeLogin{
+    padding:0 5px 10px 5px;
+}
+.btn-dang-nhap{
+    width: 100%;
+}
+.line-group{
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 20px 0;
+}
+#dang-nhap-bang{
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    font-size: 12px;
+    padding: 0 10px;
+    background: #fff;
+}
+.sociallite{
+    padding: 0;
+    margin: 0;
+}
+
+.inputPadding{
+    padding: 0 5px 10px 5px;
+}
+
+.row-note{
+    padding: 0px;
+    margin: 0 -15px 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: #636b6f;
+}
+.note-title{
+    font-size: 20px;
+    font-family: Roboto-Bold;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fff;
+    text-align: center;
+}
+
+.reason-list{
+    color: #fff;
+    padding-left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 5px;
+    list-style: none;
+}
+
+.reason-list li{
+    background: url(https://static18.muarecdn.com/images/home/list-style-login.png?v=5) no-repeat left 5px top 7px;
+    list-style: none;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 15px;    
+    text-align: left;
+}
+
+.register-row{
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.dangkybutton{
+        background: #d4680c;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border: 1px solid #5d5b5b;
+    text-transform: uppercase;
+}
+/*Kết thúc trang khách hàng login*/
+
+
