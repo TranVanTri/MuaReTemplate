@@ -482,6 +482,10 @@ button.button span {
     font-size: 11px;
 }
 
+.owl-item .motkhoi {
+    display: table-cell;
+}
+
 /************************End Sp Doc Dao*****************************/
 
 /*  ---------------------- Sản phẩm mới nhất  ----------------------*/
