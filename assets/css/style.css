@@ -363,6 +363,10 @@ padding-right: 5px;
 
 
 /*Tin đăng mới nhất*/
+.tindangmoinhat{
+    padding-left: 0;
+    margin-left: 0;
+}
 .allNews{
     margin: 5px;
 }
@@ -415,6 +419,7 @@ padding-right: 5px;
     display: table-cell;
     vertical-align: top;
     display: inline;
+
  }
 
  .imgTinDangMoiNhat img{
