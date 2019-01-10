@@ -110,18 +110,13 @@ $(document).ready(function() {
 
 		});
 	}
-	
-});
-
-		}
-	});
 
 	//khi load trang login, hide muc đăng ký đi
-	$(document).ready(function() {
-    	$("#dangkysection").hide();
-    	$(".email-login").hide();
-    	$(".phone-number-login").hide();
-	});
+	
+	$("#dangkysection").hide();
+	$(".email-login").hide();
+	$(".phone-number-login").hide();
+
 
 	$("#buttonDangKy").click(function() {
 	  $("#dangnhapsection").hide();
@@ -149,9 +144,12 @@ $(document).ready(function() {
 	            break;
 	    }            
 	});
+	
+});
+
+	
 	                          
 	   
     
-});
 	
 
