@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css"> 
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/media/media.css">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/media/media.css">
+
 
 </head>
 <body>
@@ -202,7 +203,80 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-2"><!-- Chuyên mục -->
-                    <div id="menu-category" class="menu-category"></div>
+                    <div id="menu-category" class="menu-category">
+                        <div class="title-category">chuyên mục</div>    
+                        <div class="category">
+                            <div class="parent">
+                                <h2 class="category-h2">
+                                    <a href="">Thời trang</a>
+                                </h2>
+                            </div>
+                            <ul class="child">
+                                <li><a href="">Quần áo</a></li>
+                                <li><a href="">Giày dép, túi xách</a></li>
+                                <li><a href="">Mẹ và bé</a></li>
+                                <li><a href="">Trang sức, và phụ kiện</a></li>
+                                <li><a href="">Quần áo</a></li>
+                            </ul>
+                            <a class="all-cate" href="">Tất cả chuyên mục</a>
+                        </div>      
+                        <div class="show">
+                            <p class="title-blur">hiển thị theo</p>
+                            <div>
+                                <div class="radio">
+                                    <input type="radio" id="post" class="active" checked="" name="hienthi" value="">
+                                    <label for="post" class="find_radio_lb"><a class="type-ranger" href="">Toàn bộ tin đăng</a></label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" id="service" class="" name="hienthi" value="">
+                                    <label for="service" class="find_radio_lb"><a class="type-ranger" href="">Các dịch vụ liên quan</a></label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" id="product" class="" name="hienthi" value="">
+                                    <label for="product" class="find_radio_lb"><a class="type-ranger" href="">Kho sản phẩm</a></label><span class="label label-success">Mới</span>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="filter-stop"></div>   
+                        <div class="find" id="filter-fix" style="position: unset;width: unset;top: unset;">
+                            <p class="title-blur">lọc theo</p>
+                            <div class="quality filter">
+                                <p class="title">Tình trạng</p>
+                                <div class="form-group">
+                                    <input type="checkbox" name="quality[]" checked="" value="" id="new">
+                                    <label for="new"><a class="quality-ranger" href="#">Mới</a></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" name="quality[]" checked="" value="" id="new_90">
+                                    <label for="new_90"><a class="quality-ranger" href="">Mới 90%</a></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" name="quality[]" value="" id="new_80">
+                                    <label for="new_80"><a class="quality-ranger" href="">Mới 80%</a></label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" name="quality[]" value="" id="old">
+                                    <label for="old"><a class="quality-ranger" href="">Cũ</a></label>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <div class="title">Giá (vnđ)</div>
+                                <div class="find-price">
+                                    <ul class="list-price active">
+                                        <li data-value="0-500000"><a class="price-ranger" href="">≤ 500.000đ</a></li>
+                                        <li data-value="500000-2000000"><a class="price-ranger" href="">500.000đ - 2.000.000đ</a></li>
+                                        <li data-value="2000000-5000000"><a class="price-ranger" href="">2.000.000đ - 5.000.000đ</a></li>
+                                        <li data-value="5000000-10000000"><a class="price-ranger" href="">5.000.000đ - 10.000.000đ</a></li>
+                                        <li class="custom-price" data-value="10000000-2000000000"><a class="price-ranger" href="">≥ 10.000.000đ</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+
+                
+                
+            </div>          
+                    </div>
                 </div>
                 <div class="col-lg-7 col-md-7"><!-- nội dung các bài đăng -->
                     <div id="view-post" class="view-post"></div>
