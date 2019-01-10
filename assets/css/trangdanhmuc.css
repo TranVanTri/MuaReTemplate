@@ -207,3 +207,111 @@ body {
     line-height: 1.4em;
     text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOTER */
+.footer{
+    background: #2e5888;
+    
+}
+.footer a, .footer p {
+    color: #9ac6f5;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.footer h6{
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto,sans-serif,Roboto-Regular!important;
+    letter-spacing: 0.8px;
+    line-height: 1.4em;
+    padding: 5px 0px;
+}
+.footer li{
+    list-style-type:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: normal;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: normal;
+    padding: 0 0 6px;
+    font-family: Roboto,sans-serif;
+}
+.footer li i {
+    font-size: 9px;
+}
+.footer li a:hover{
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+    transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+}
+
+.contacts-info address {
+    display: block;
+    margin: auto;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #fff;
+    padding-top: 5px;
+    margin-top: 10px;
+    text-align: left;
+    padding-bottom: 5px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    border: none;
+}
+.phone-footer {
+    overflow: hidden;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+.email-footer a, .phone-footer {
+    font-size: 12px;
+    line-height: 35px;
+}
+.email-footer {
+    overflow: hidden;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.contacts-info .fas {
+    border-radius:25px;-moz-border-radius:50%;-webkit-border-radius:50%;
+    background: white;
+    color: #2e5888;
+    padding: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
