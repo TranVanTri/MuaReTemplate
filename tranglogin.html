@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mua bán Muare.vn</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="_token" content="{{ csrf_token() }}">
+	<title>Mua bán Muare.vn</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="_token" content="{{ csrf_token() }}">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
 
     <link rel="stylesheet" href="assets/css/resetCSS/reset.css">
     <link rel="stylesheet" href="assets/css/w3/w3.css">
@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css"> 
+    <link rel="stylesheet" href="assets/css/OwlCarousel/owl.carousel.min.css"> 
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/media/media.css">
 
 </head>
 <body>
 
-    <section class="header">
-        <!-- navbar - navigation bar:  -->
-        <div id="navigationbar">
+	<section class="header">
+		<!-- navbar - navigation bar:  -->
+    	<div id="navigationbar">
             <!-- CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ -->
             <div id="contract-header">
                 <div style="width: 90%;">
@@ -79,7 +80,7 @@
             <!-- LOGO-HEADER: LOGO - SEARCH BAR - SIGN IN - SIGN UP - CART -->
             <div id="logo-header" class="container-fluid">
                 <div class="row" style="width: 88%;margin-left: 6%;margin-right: 6%;">
-            <!-- menu 2 -->
+    		<!-- menu 2 -->
                         <div class="col-lg-2 col-sm-3 col-md-2 col-xs-12 logo">
                             <a class="logo" title="Tìm là có, ngó là mua, vừa là bán" href="https://muare.vn"><img src="https://static8.muarecdn.com/original/muare/images/2018/05/25/4657344_new-logo.png" alt="Tìm là có, ngó là mua, vừa là bán"></a>
                         </div>
@@ -192,49 +193,151 @@
                 </div>
             </div>
         </div>
-    </section>
+	</section>
 
-    <section class="quang-cao-top">
-        
-    </section>
+	<section class="quang-cao-top">
+		
+	</section>
 
-    <section class="content mt-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2"><!-- Chuyên mục -->
-                    <div id="menu-category" class="menu-category"></div>
+	<section class="content mt-1">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+                    left
                 </div>
-                <div class="col-lg-7 col-md-7"><!-- nội dung các bài đăng -->
-                    <div id="view-post" class="view-post"></div>
+                <div class="modal-content col-md-8">
+                    <div class="modal-body col-md-12">
+                        <div class="row">
+                            <div class="login-group col-md-8">
+                                <div >
+                                    <h4 id="title-login">Đăng nhập tài khoản</h4>
+                                </div>
+                                <div class="form-action">
+                                    <form action="#" method="POST">
+                                        <div class="formgroup">
+                                            <div class="radioTypeLogin">
+                                                <input type="radio" name="typelogin" value="" checked=""> Tên tài khoản
+                                                <input type="radio" name="typelogin" value=""> Số điện thoại
+                                                <input type="radio" name="typelogin" value=""> Email
+                                            </div>
+                                            <div class="inputLogin">
+                                                <div id="dangnhapsection">
+                                                    <div class="inputPadding">
+                                                        <label>Tên đăng nhập :</label>
+                                                        <input type="text" class="form-control" name="" placeholder="Nhập tên đăng nhập tại đây" />
+                                                    </div>
+                                                    <div class="inputPadding">
+                                                        <label>Mật khẩu :</label>
+                                                        <label style="float: right;"><a href="#">Quên mật khẩu?</a></label>
+                                                        <input type="password" class="form-control" name="" placeholder="Nhập mật khẩu tại đây" />
+                                                    </div>
+                                                    <div  class="inputPadding">
+                                                         <input type="checkbox" name="" value="">        Ghi nhớ đăng nhập
+                                                    </div>
+                                                </div>
+
+                                                <div id="dangkysection">
+                                                    
+                                                    <div class="inputPadding">
+                                                    <label>Tên tài khoản:</label>
+                                                    <input type="text" class="form-control" name="" placeholder="Nhập tên đăng nhập tại đây" required />
+                                                    </div>
+                                                    <div class="inputPadding">
+                                                        <label>Email :</label>
+                                                        <input type="email" class="form-control" name="" placeholder="Nhập email tại đây" required />
+                                                    </div>
+                                                    <div class="inputPadding">
+                                                        <label>Số điện thoại :</label>
+                                                        <input type="text" class="form-control" name="" placeholder="Nhập số điện thoại tại đây" required />
+                                                    </div>
+                                                    <div class="inputPadding">
+                                                        <label>Mật khẩu :</label>
+                                                        <input type="password" class="form-control" name="" placeholder="Nhập mật khẩu tại đây"   />
+                                                    </div>
+                                                    <div class="inputPadding">
+                                                        <label>Nhập lại mật khẩu :</label>
+                                                        <input type="text" class="form-control" name="" placeholder="Nhập lại mật khẩu tại đây"  required />
+                                                    </div>
+                                                    <div  class="inputPadding">
+                                                         <input type="checkbox" name="" value="" required>        Tôi hoàn toàn đồng ý với <a href="#">Quy định</a> mà diễn đàn đề ra
+                                                    </div>
+                                                </div>
+
+                                                <div  class="inputPadding">
+                                                    <button type="submit"  class="btn-dang-nhap btn btn-primary">Đăng nhập</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="dangnhapbang">
+                                    <div class="inputPadding line-group">
+                                        <p id="dang-nhap-bang">hoặc đăng nhập bằng</p>
+                                    </div>
+                                </div>
+                                <div class="sociallite">
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <a href="#" class="btn btn-danger btn-block"><i class="fab fa-google"></i>  Google</a>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <a href="#" style="background-color: #337ab7;" class="btn btn-primary btn-block">
+                                                <i class="fab fa-facebook-f"></i>  Facebook</a>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <a href="#" class="btn btn-info btn-block"><i class="fab fa-twitter"></i>  Twitter</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row-note col-md-4">
+                                
+                                <p class="note-title">Là thành viên của Muare bạn sẽ được</p>
+                                <ul class="reason-list">
+                                    <li>Kinh doanh mọi lúc mọi nơi trên Muare</li>
+                                    <li>Bán hàng hiệu quả với thị trường 50.000 khách hàng tiềm năng hoạt động hàng ngày trên Muare</li>
+                                    <li>Mua hàng hóa với giá trị hời tại hơn 1.000 shop uy tín</li>
+                                    <li>Tham gia cộng đồng thương mại hoạt động nhộn nhịp bậc nhất</li>
+                                </ul>
+                                <div class="register-row">
+                                    <button type="button" id="buttonDangKy" class="dangkybutton btn btn-primary">Đăng ký</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3"><!-- Vùng tìm kiếm -->
-                    <div id="search-zone" class="search-zone"></div>
+                <div class="col-md-3">
+                    
                 </div>
             </div>
-        </div>
-    </section>
-    
 
-    <section class="more-info">
-        <div class="container most-post">
-            Bạn chưa tìm được sản phẩm ưng ý? Tìm theo chuyên mục hoặc 
-            <h2 class="all-post"><a title="" href="https://muare.vn/posts/tin-dang-moi-nhat">xem tất cả tin đăng</a></h2>
-        </div>
-    </section>
+		</div>
 
-    <section class="quang-cao-bottom">
-        
-    </section>
+	</section>
+	
 
-    <section class="footer">
-        
-    </section>
+	
+
+	<section class="quang-cao-bottom">
+		
+	</section>
+
+	<section class="footer">
+		
+	</section>
 
 
-    <script src="assets/js/jquery/jquery.min.js"></script>
-    <script src="assets/js/jquery/popper.min.js"></script>
+	<script src="assets/js/jquery/jquery.min.js"></script>
+	<script src="assets/js/jquery/popper.min.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/js/myJS.js"></script>
+	<script src="assets/js/OwlCarousel/owl.carousel.min.js"></script>
+	<script src="assets/js/myJS.js"></script>
 
 </body>
 </html>

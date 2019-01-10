@@ -1,11 +1,22 @@
-body {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+* {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+    font-family: 'Open Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 200;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -15,6 +26,225 @@ body {
     color: inherit;
 }
 
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+/*button:focus{
+    outline: none;
+}*/
+
+/*****************HEADER********************************/
+/*CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ*/
+#navigationbar #contract-header {
+    background-color: rgb(44,89,135); /* #2c5987 */
+    width: 100%;
+    height: 28px;
+    float: left;
+}
+/*3 items on contract-header*/
+.toplinks {
+    font-family: Roboto,sans-serif;
+    line-height: 1.3em;
+    padding: 3px 0 3px;
+    color: white;
+    font-size: 13px;
+    text-align: right;
+    float: right;
+    cursor: pointer;
+}
+.iconstyle {
+    padding: 6px;
+}
+/*Liên hệ quảng cáo*/
+.cheader-item2 {
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 4px;
+    color: rgb(245,245,220);
+    vertical-align: bottom;
+}
+/*Adjusting: show dropdown's items on hover*/
+/*Hỗ trợ on header*/
+.support-header{
+    color: rgb(102,102,102);
+    text-align: left;
+}
+/*header2 part of Hỗ trợ on header*/
+.header2-support-item{
+    padding: 8px;
+}
+
+.dropdown button{
+    outline: none;
+}
+
+/* LOGO-HEADER */
+#logo-header{ /* 152x45px */
+    padding-top: 3.5%;
+    padding-bottom: 1.5%;
+    
+}
+#logo-header .searchtypes {
+    float: none;
+    display: block;
+    text-align: left;
+    border: solid 1px #c7c7c7;
+    color: #c7c7c7;
+    border-right: 0px;
+}
+
+#logo-header .searchtypes button:focus{
+    outline: unset;
+}
+
+#logo-header .input-search{
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+#logo-header .input-search:focus{
+    box-shadow: none;
+}
+
+#logo-header .btn-tatca {
+    color: #bebebe;
+    background: none;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+#logo-header .btnsearch {
+    color: white;
+    font-size: 14px;
+    float: left;
+    background: #ea2349;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+#logo-header .btn-login {
+    padding: 0px 8px 0px 8px;
+}
+
+
+/* MENU-HEADER */
+/*CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ*/
+#navigationbar #menu-header {
+    background-color: rgb(44,89,135); /* #2c5987 */
+    width: 100%;
+    height: 34px;
+}
+
+/* MENU */
+.dropdown:hover .hoverable {
+    display: block;
+    margin-top: 0; /*remove the gap so it doesn't close*/
+ }
+.dropdown .dropdown-width {
+    margin-left: -300%;
+    font-size: 12px;
+ }
+.dropdown-menu {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+/*
+    padding: 4px 8px;
+*/
+}
+.dropdown-item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.dropdown-itemlv1:hover {
+    background: #f8b93e;
+    color: white;
+}
+.line {
+    margin: 0px 16px;
+}
+
+/* SUB-MENU */
+.dropdown-submenu {
+    position: relative;
+    
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -8px;
+    margin-left: 1px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-left: 0px;
+    background: rgb(247,247,247);
+    padding: 16px 16px;
+    height: 600%;
+    width: 130%;
+}
+.dropd-itemlv2 {
+    color: rgb(104,104,104);
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 0px;
+    background: none;
+}
+.dropdown-itemlv2:hover {
+    background: none !important; !important
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+/* AD-HEADRER */
+.ad-header{
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    font-size: 11px;
+    color: #818181;
+    font-family: Roboto,sans-serif;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/****************END HEADER*****************/
 
 /*************Section All category*****************/
 
@@ -25,7 +255,7 @@ body {
     background: #fff9d7;
     padding-left: 13px;
     float: left;
-    width: 845px;
+    width: 100%;
     margin-bottom: 10px;
     margin-left: 5px;
     font-size: 13px;
@@ -62,7 +292,7 @@ body {
     font-family: Roboto-Bold;
     text-transform: uppercase;
     text-align: center;
-    margin: 5px;
+    margin: 5px 0 5px 5px;
     border: 1px solid #c1e0ff;
     color: #000;
     text-decoration: none;
@@ -97,24 +327,219 @@ body {
     font-family: Roboto-Regular;
     text-transform: lowercase;
     color: #ea2349;
-    margin: 0 15px 15px;
+    margin: 15px 15px 15px 15px;
 }
 
 
 
 /************* End Section All category*****************/
+/************************Sp Doc Dao*****************************/
+.san-pham-doc-dao, .chiasemoicuacongdong{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 100%; /* Set full-width to expand the whole page */
+}
 
+.large-title.promote{
+    width: 90%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.view-promote-page{
+    font-size: 14px;
+    position: relative;
+    bottom: 0.7rem;
+    text-decoration: none;
+}
+
+.promoteProduct .wrap-img{
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.promoteProduct .wrap-img .qv-button-container {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    /*opacity: 0;*/
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    background: #ea2349;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.promoteProduct .wrap-img .qv-button-container:hover{
+    background: #2c5987;
+}
+
+.promoteProduct .wrap-img .qv-button-container a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.promoteProduct .wrap-img .qv-button-container a i{
+    margin-top: 12px;
+}
+
+.promoteProduct .item:hover .wrap-img .qv-button-container{
+
+    transform: scale(1);
+}
+
+.promoteProduct .item{
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px #dfdfdf;
+    box-shadow: 0 1px 3px #dfdfdf;
+}
+
+.promoteProduct .item:hover {
+    background: #e7e7f1;
+}
+
+
+
+.info {
+    text-align: center;
+    padding: 0 12px 0px 12px;
+}
+.info-inner{
+
+}
+
+.info-inner .title_products_related {
+    margin: 15px 3px 10px;
+    height: 43px;
+    overflow: hidden;
+}
+
+.price-box {
+    margin: 3px 0;
+    min-height: 20px;
+}
+
+.special-price {
+    margin: 0;
+    display: inline-block;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #e4e4e4;
+    padding: 5px;
+}
+
+.special-price .price {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: 900;
+    font-family: Roboto-Regular;
+}
+
+.button {
+    font-family: Roboto,sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 5px 12px;
+    -webkit-transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+    transition: color .3s ease-in-out 0s,background-color .3s ease-in-out 0s,background-position .3s ease-in-out 0s;
+}
+
+button.button span {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.promoteProduct button.button.btn-cart {
+    margin: 7px 8px 10px;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.promoteProduct .item:hover button.button.btn-cart{
+    border: 1px solid #ea2349;
+    background: #ea2349;
+    padding: 6px 15px;
+    color: #ffffff;
+}
+.promoteProduct .item:hover button.button.btn-cart a{
+    color: #fff;
+}
+
+
+.actions a.order {
+    color: #4a4a4a;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.owl-item .motkhoi {
+    display: table-cell;
+}
+
+/************************End Sp Doc Dao*****************************/
 
 /*  ---------------------- Sản phẩm mới nhất  ----------------------*/
 
-.card-footer {
-    padding: 1px;
+
+.right-col .title-block {
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #2c5987;
+    color: #fff;
 }
 
-.card{
-    margin: 5px;
-    margin-left: 0px;
-    border: 4px;
+.right-col .list-item {
+    width: 100%;
+    float: left;
+}
+
+.right-col .list-item .new-item {
+    width: 32%;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.right-col .list-item .new-item:nth-child(3n+3){
+    margin-right: 0;
+}
+
+
+.right-col .list-item .new-item .item-image {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.right-col .list-item .new-item .item-image .item-price {
+    display: block;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    background-color: hsla(0,0%,60%,.77);
+    background: -webkit-gradient(linear,left top,left bottom,from(#5a5a5a),to(rgba(95,95,72,.38)));
+    background: linear-gradient(#5a5a5a,rgba(95,95,72,.38));
+    border-radius: 0 0 3px 3px;
+    font-family: Roboto-Bold;
+    font-size: 12px;
+    padding-top: 2px;
 }
 
 /*  Kết thúc sản phẩm mới nhất  */
@@ -143,14 +568,6 @@ body {
     font-weight: bold;
 }
 
-.chiasemoicuacongdong{
-    float: left;
-    margin-top: 8px;
-    margin-bottom: 10px;
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-
-}
 .right-info {
     width: auto;
     vertical-align: top;
@@ -214,4 +631,221 @@ padding-right: 5px;
 }
 
 /* kết thúc chia sẽ mới của cộng dồng */
+
+
+/*Tin đăng mới nhất*/
+.tindangmoinhat{
+    padding-left: 0;
+    margin-left: 0;
+}
+.allNews{
+    margin: 5px;
+}
+
+.recentNew{
+    padding: 5px 10px 0 5px;
+    width: 48%;
+    display: block;
+    float: left;
+    border: 1px solid #dfdfdf;
+    margin: 0px 0 10px 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    height: auto;
+    
+}
+
+.tieudetintuc{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    font-size: 24px;
+
+}
+
+.tieudetintuc a{
+    text-decoration: none;
+}
+
+.noidungTin{
+    display: table;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+.canTraiNoiDung{
+    margin: 0px;
+    padding: 0;
+    text-align: justify;
+    font-size: 13px;
+    color: #666;
+    display: table-cell;
+    width: auto;
+    position: relative;
+    vertical-align: top;
+    /*font-family: Roboto-Regular;*/
+}
+
+ .imgTinDangMoiNhat{
+    display: table-cell;
+    vertical-align: top;
+    display: inline;
+
+ }
+
+ .imgTinDangMoiNhat img{
+    border-radius: 10px;
+}
+
+.post-address
+{
+    margin: 0;
+    padding-top: 10px;
+    display: table;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+/* Kết thúc tin đăng mới nhất*/
+
+
+
+
+/*-------------- Phẩn More information - xem tất cả tin đăng*---------------*/
+
+.most-post{
+    text-align: center;
+    background: #e6e6e6;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.all-post{
+    display: inline-block;
+    margin: unset;
+    font-size: unset;
+}
+
+/*   Kết thúc Phẩn More information - xem tất cả tin đăng*------*/
+
+
+/*-------------------------------      Trang khách hàng login */
+.modal-content{
+    border-radius: 0;
+    background: transparent;
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+#title-login{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.login-group{
+        padding: 20px 35px;
+    min-height: 330px;
+}
+
+.radioTypeLogin{
+    padding:0 5px 10px 5px;
+}
+.btn-dang-nhap{
+    width: 100%;
+}
+.line-group{
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #999;
+    margin: 20px 0;
+}
+#dang-nhap-bang{
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    font-size: 12px;
+    padding: 0 10px;
+    background: #fff;
+}
+.sociallite{
+    padding: 0;
+    margin: 0;
+}
+
+.inputPadding{
+    padding: 0 5px 10px 5px;
+}
+
+.row-note{
+    padding: 0px;
+    margin: 0 -15px 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: #636b6f;
+}
+.note-title{
+    font-size: 20px;
+    font-family: Roboto-Bold;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #fff;
+    text-align: center;
+}
+
+.reason-list{
+    color: #fff;
+    padding-left: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 5px;
+    list-style: none;
+}
+
+.reason-list li{
+    background: url(https://static18.muarecdn.com/images/home/list-style-login.png?v=5) no-repeat left 5px top 7px;
+    list-style: none;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 15px;    
+    text-align: left;
+}
+
+.register-row{
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.dangkybutton{
+        background: #d4680c;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    border: 1px solid #5d5b5b;
+    text-transform: uppercase;
+}
+/*Kết thúc trang khách hàng login*/
+
 
