@@ -107,7 +107,51 @@ $(document).ready(function() {
 					loop:true,
 				}
 			}
+
 		});
 	}
 	
 });
+
+		}
+	});
+
+	//khi load trang login, hide muc đăng ký đi
+	$(document).ready(function() {
+    	$("#dangkysection").hide();
+    	$(".email-login").hide();
+    	$(".phone-number-login").hide();
+	});
+
+	$("#buttonDangKy").click(function() {
+	  $("#dangnhapsection").hide();
+	  $("#dangkysection").show();
+	  $("#buttonDangKy").hide();
+	  $(".radioTypeLogin").hide();
+	});
+
+	$('input[type=radio][name=typelogin]').on('change', function(){
+	    switch($(this).val()){
+	        case '1' :
+	            $(".phone-number-login").hide();
+	            $(".email-login").hide();
+	            $(".username-login").show();
+	            break;
+	        case '2' :
+	            $(".username-login").hide();
+	            $(".email-login").hide();
+	            $(".phone-number-login").show();
+	            break;
+            case '3' :
+	            $(".phone-number-login").hide();
+	            $(".username-login").hide();
+	            $(".email-login").show();
+	            break;
+	    }            
+	});
+	                          
+	   
+    
+});
+	
+
