@@ -17,6 +17,7 @@
 	}
 
 }
+/************************/
 
 @media (max-width: 1199px){
 	.all-category .category-row .category-col {
@@ -29,13 +30,16 @@
 
 }
 @media (max-width: 991px){
-
-
+	
+	#menu-category .title-category{
+		font-size: 13px;
+	}
 	.all-category .category-row .icon-category .icon-c{
 		margin: 15px 26px 5px;
 	}
 
 }
+
 
 @media (max-width: 767px){
 
