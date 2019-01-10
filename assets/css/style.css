@@ -852,7 +852,7 @@ padding-right: 5px;
 
 
 
-/* FOOOTER */
+/*  ---------------------------------------- FOOOTER -------------------------------- */
 .footer{
     background: #2e5888;
     
@@ -935,3 +935,98 @@ padding-right: 5px;
     width: 35px;
     height: 35px;
 }
+
+/* ------------------------Kết thúc footer*/
+
+/* ------------------------------------ Trang chi tiết sản phẩm  ---------------------------  */
+.service-title {
+    line-height: 30px;
+    border: 1px solid #ddd;
+    background: #eee;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #ffa64d;
+    font-style: italic;
+    margin: 0;
+  
+}
+
+.inputUserPhone{
+    padding: 30px 20px 10px 20px;
+}
+#btnUserPhone{
+    background: #155986;
+    color: #fff;
+    font-family: Roboto-Bold;
+    vertical-align: bottom;
+    border-radius: 0;
+}
+
+#listCombo{
+    padding-left: 0;
+}
+.menuCombo ul li {
+    list-style: none;
+    font-style: italic;
+    text-align: left;
+}
+.menuCombo ul li .fas {
+    margin-right: 10px;
+    font-size: 9px;
+    color: #ffbf00;
+}
+.menuCombo{
+    padding: 20px 10px 0 0;
+}
+.border_style {
+/*    border-left: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;*/
+    
+}
+.service_news{
+    border-left: 1px dashed #ddd;
+    padding-left: 10px;
+    border-right: 1px dashed #ddd;
+}
+.inputUserPhone {
+    border-left: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+}
+
+.menuCombo{
+    border-right: 1px dashed #ddd;
+}
+#list_combo{
+    border-right: 1px dashed #ddd;
+}
+#title_header{
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    color: #175f92;
+    margin: 0;
+    line-height: 19.2px;
+    text-transform: uppercase;
+}
+.timePost{
+    font-size: 12px;
+    color: #666;
+    text-transform: lowercase;
+}
+.left{
+    float:left;
+}
+.right{
+    float: right;
+}
+#icon_action{   
+    float: right;
+    font-size: 30px;
+    display: inline;
+}
+.hovericon:hover{
+    color: orange;
+}
+
+
+/* Kết thúc trang chi tiết sản phẩm */
