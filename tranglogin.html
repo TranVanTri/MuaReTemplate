@@ -204,7 +204,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-2">
-                    left
+                    <!-- bên trái của form đăng ký -->
                 </div>
                 <div class="modal-content col-md-8">
                     <div class="modal-body col-md-12">
@@ -217,15 +217,23 @@
                                     <form action="#" method="POST">
                                         <div class="formgroup">
                                             <div class="radioTypeLogin">
-                                                <input type="radio" name="typelogin" value="" checked=""> Tên tài khoản
-                                                <input type="radio" name="typelogin" value=""> Số điện thoại
-                                                <input type="radio" name="typelogin" value=""> Email
+                                                <input type="radio"  name="typelogin" value="1" checked=""> Tên tài khoản
+                                                <input type="radio"  name="typelogin" value="2"> Số điện thoại
+                                                <input type="radio" name="typelogin" value="3"> Email
                                             </div>
                                             <div class="inputLogin">
                                                 <div id="dangnhapsection">
-                                                    <div class="inputPadding">
+                                                    <div class="inputPadding username-login">
                                                         <label>Tên đăng nhập :</label>
                                                         <input type="text" class="form-control" name="" placeholder="Nhập tên đăng nhập tại đây" />
+                                                    </div>
+                                                    <div class="inputPadding phone-number-login">
+                                                        <label>Số điện thoại :</label>
+                                                        <input type="text" class="form-control" name="" placeholder="Nhập số điện thoại tại đây" />
+                                                    </div>
+                                                    <div class="inputPadding email-login">
+                                                        <label>Email :</label>
+                                                        <input type="email" class="form-control" name="" placeholder="Nhập email tại đây" />
                                                     </div>
                                                     <div class="inputPadding">
                                                         <label>Mật khẩu :</label>
