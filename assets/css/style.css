@@ -1498,7 +1498,7 @@ table .td-info .user-post .username .username-h4 a {
 /* ------------------------Kết thúc footer*/
 
 /* ------------------------------------ Trang chi tiết sản phẩm  ---------------------------  */
-.service-title {
+.service-title-tomiot {
     line-height: 30px;
     border: 1px solid #ddd;
     background: #eee;
@@ -1507,7 +1507,6 @@ table .td-info .user-post .username .username-h4 a {
     color: #ffa64d;
     font-style: italic;
     margin: 0;
-  
 }
 
 .inputUserPhone{
@@ -1559,27 +1558,24 @@ table .td-info .user-post .username .username-h4 a {
 #list_combo{
     border-right: 1px dashed #ddd;
 }
-#title_header{
-    padding: 20px 0 0 0;
+.title_header_tomiot{
+    padding: 5px 0 ;
     font-size: 15px;
     color: #175f92;
     margin: 0;
     line-height: 19.2px;
     text-transform: uppercase;
+    color: orange;
+
 }
-.timePost{
+.timePost_tomiot{
     font-size: 12px;
     color: #666;
     text-transform: lowercase;
 }
-.left{
-    float:left;
-}
-.right{
-    float: right;
-}
-#icon_action{   
-    float: right;
+
+#icon_action_tomiot{   
+    /*float: right;*/
     font-size: 30px;
     display: inline;
 }
@@ -1587,5 +1583,12 @@ table .td-info .user-post .username .username-h4 a {
     color: orange;
 }
 
+.new_title_header_tomiot{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.noidung_tintuc_tomiot{
+	
+}
 
 /* Kết thúc trang chi tiết sản phẩm */
