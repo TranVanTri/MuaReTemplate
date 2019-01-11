@@ -1588,7 +1588,95 @@ table .td-info .user-post .username .username-h4 a {
 	padding: 10px;
 }
 .noidung_tintuc_tomiot{
-	
+
+}
+#hinh_anh_shop_tomiot{
+	 border-radius: 10px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 1px 20px #ccc;
+    box-shadow: 0 1px 20px #ccc;
+
+}
+#table_product_tomiot{
+	display: table;
+	padding: 20px 10px 5px 20px;
+}
+#img_shop_tomiot{
+	display: table-cell;
+}
+#thong_tin_san_pham_tomiot{
+	display: inline-block;
+	padding-left: 20px;
+}
+.facebook_button_tomiot{
+	padding: 20px 0 10px 10px;
+}
+#san_pham_lien_quan_tomiot{
+	padding: 20px 10px 10px 10px;
+	text-align: left;
+	font-size: 17px;
+	font-weight: bold;
+}
+.list_item_tomiot{
+	margin: 0;
+	padding: 0;
+}
+.danhsach_sp_lien_quan_tomiot{
+	    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+}
+.sp_lien_quan_tomiot{
+	padding: 0 5px;
+    display: table;
+}
+.avatar_splq_tomiot{
+    display: table-cell;
+    vertical-align: top;
+    display: table;
+}
+.img_splq_tomiot{
+	border-radius: 3px;
+	width: 55px;
+	display: table-cell;
+}
+.thong_tin_splq_tomiot{
+	display: table-cell;
+	list-style-type: none;
+	padding: 0 10px;
+}
+.tieu_de_splq_tomiot{
+	font-family: Roboto-Bold;
+    font-size: 14px;
+    color: #176093;
+    display: inline-block;
+       /*min-height: 39px;*/
+}
+.user_thongtin_splq_tomiot{
+
 }
 
+.nguoi_ban_de_xuat_tomiot{
+	padding: 20px;
+}
+.ds_cac_sp_de_xuat_tomiot{
+	    font-family: Roboto-Bold;
+    font-size: 14px;
+    color: #175f92;
+    line-height: 18.8px;
+    text-transform: lowercase;
+    display: inline-block;
+}
+.gia_tien_spdx_tomiot{
+	font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #d80000;
+    line-height: 19.2px;
+}
+.image_spdx_tomiot{
+	 width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 1px 20px #ccc;
+    box-shadow: 0 1px 20px #ccc;
+}
 /* Kết thúc trang chi tiết sản phẩm */
