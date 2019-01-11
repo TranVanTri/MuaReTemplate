@@ -75,4 +75,6 @@
 .tinchamsoc-td{
     text-align: left !important;
     border-right: 1px solid;
+    border-right: 1px solid #d3c196;
+    box-shadow: 2px 0px 0px 0px #ffff6d;
 }
