@@ -1,0 +1,78 @@
+
+.icon-ad-L{
+    font-size: 18px;
+    color: #ffa202;
+    padding: 2px;
+}
+
+.tables-baogia-L {
+    border: 1px solid #5191aa;
+    padding: 16px 20px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0.5px 0.5px #b9ebff;
+    /*-moz-box-shadow: 0px 0px 1px 1px;
+    -webkit-box-shadow: 0px 0px 1px 1px;
+    -o-box-shadow: 0px 0px 1px 1px;
+    -ms-box-shadow: 0px 0px 1px 1px;*/
+}
+.tinviptable-L {
+    width: 100%;
+}
+.tinviptable-L tr th {
+    padding: 8px 0px 16px;
+    border-bottom: 1px solid #d3c196; 
+    box-shadow: 0px 2px 0px 0px #ffff6d;
+}
+.tinviptable-L tr td{
+    text-align: left;
+    width: 33.33%;
+    padding: 4px;
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*.tr-underline-L{
+    background: #d3c196;
+    box-shadow: 0px 0px 0.5px 0.5px #ffff6d;
+    width: 100%;
+}*/
+
+.tinviptable2-L{
+    width: 100%;
+}
+.tinviptable2-L tr th {
+    text-align: center;
+    padding: 0px 0px 16px;
+}
+.tinviptable2-L tr td{
+    text-align: center;
+    width: 16.7%;
+    padding: 4px;
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tinhotrotable-L{
+    width: 100%;
+}
+.tinhotrotable-L tr th {
+    text-align: center;
+    padding: 0px 0px 16px;
+    border-bottom: 1px solid #d3c196; 
+    box-shadow: 0px 2px 0px 0px #ffff6d;
+}
+.tinhotrotable-L tr td{
+    /*width: 20%;*/
+    text-align: center;
+    padding: 4px;
+    color: #4b4b4b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tinchamsoc-td{
+    text-align: left !important;
+    border-right: 1px solid;
+}
