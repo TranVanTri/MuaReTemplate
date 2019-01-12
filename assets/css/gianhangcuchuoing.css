@@ -1,0 +1,28 @@
+.main-container {
+  background-color: #fff;
+  min-height: 400px;
+  padding: 10px 0;
+}
+.row{
+  margin-top: 10px;
+}
+.mrfoot {
+  padding-top: 0!important;
+}
+.page-shop .cover {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.page-shop .cover .image_cover .drag_image .icon_drag {
+  background: #546185 url(/images/shop/icon_drag.png) 9px 8px no-repeat;
+  background-color: rgba(84,97,133,.4);
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.12);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,.12);
+  color: #fff;
+  display: inline;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 9px 6px 29px;
+}
