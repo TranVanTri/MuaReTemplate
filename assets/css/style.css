@@ -1133,11 +1133,11 @@ table .td-info .user-post .username .username-h4 a {
 /*hình ảnh thu nhỏ*/
 .chip {
   display: inline-block;
-  padding: 0 0 0 0;
-  height: 50px;
-  line-height: 50px;
+  padding: 10px 0 10px 0;
   border-radius: 25px;
   font-size: 13px;
+  width: 100%;
+  margin-left: 5px;
 }
 
 .chip img {
@@ -1160,20 +1160,16 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .recentNew {
-  padding: 5px 10px 0 5px;
   width: 48%;
-  display: block;
-  float: left;
+  display: inline-block;
   border: 1px solid #dfdfdf;
-  margin: 0px 0 10px 10px;
   background: #f9f9f9;
   border-radius: 5px;
   height: auto;
+  margin-bottom: 5px;
 }
 
 .tieudetintuc {
-  white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
   font-size: 24px;
@@ -1584,11 +1580,63 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .new_title_header_tomiot{
-	border: 1px solid #ddd;
-	padding: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 .noidung_tintuc_tomiot{
-	
+    
 }
 
 /* Kết thúc trang chi tiết sản phẩm */
+
+
+/**************************Tất cả tin đăng******************************/
+.large-title-2-Tr{
+    border-top: 1px dashed #ddd;
+}
+
+.large-title-2-Tr h3{
+    padding-top: 10px;
+}
+
+.large-title-2-Tr span{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pagination-Tr{float: none;margin-right: auto;margin-left: auto;width: 15rem;}
+
+.allNews-Tr{
+    margin: 24px 0 0 0;
+}
+.recentNew-Tr{
+    background: unset;
+}
+
+.allNews-Tr .recentNew-Tr .recent-item-title-Tr{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.allNews-Tr .recentNew-Tr .title-dotted-Tr{
+    border-bottom: 2px dotted #ddd;
+    margin-left: 5px;
+}
+.allNews-Tr .recentNew-Tr .title-dotted-Tr a{
+    font-size: 15px;
+    color: #175f92;
+    display: table-cell;
+    height: 55px;
+    overflow: hidden;
+    vertical-align: middle;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.allNews-Tr .recentNew-Tr .title-dotted-Tr a:hover{
+    text-decoration: underline;
+}
+
+/**************************End Tất cả tin đăng******************************/
