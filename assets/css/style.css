@@ -968,6 +968,8 @@ table .td-info .user-post .username .username-h4 a {
     top: 3px;
     display: table-cell;
     vertical-align: middle;
+    text-transform: none;
+    font-weight: unset;
 }
 .posts-list .last-comment .count_cmt .cmt:before {
     color: #999;
