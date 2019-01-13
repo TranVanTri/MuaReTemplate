@@ -1,4 +1,5 @@
 
+/* COLLSLAP ĐẦU TIÊN Báo giá dịch vụ trên Muare*/
 .icon-ad-L{
     font-size: 18px;
     color: #ffa202;
@@ -6,6 +7,8 @@
 }
 
 .tables-baogia-L {
+    font-family: Roboto, sans-serif;
+    line-height: 1.3em;
     border: 1px solid #5191aa;
     padding: 16px 20px 16px;
     border-radius: 8px;
@@ -69,11 +72,44 @@
     padding: 4px;
     color: #4b4b4b;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
 }
 
-.tinchamsoc-td{
+.tinchamsoc-td-L{
     text-align: left !important;
     border-right: 1px solid #d3c196;
     box-shadow: 2px 0px 0px 0px #ffff6d;
+}
+
+/* COLLSLAP THỨ 2 - Báo giá quảng cáo trên Muare*/
+/* canh giữa img */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-baogiaad-L{
+    font-weight: bold;
+    color: #1c84c5;
+    text-align: center;
+    margin: 16px auto 28px;
+}
+.title-baogiaad-L span{
+    background-color: #edeff0;
+    padding: 8px;
+}
+.h5-baogiaad-L{
+    font-weight: bold;
+    color: #1c84c5;
+    font-size: 15.5px;
+}
+.content-baogiaad-L{
+    font-size: 11.5px;
+    color: #000;
+    font-weight: 500;
+}
+.numbers-baogiaad-L{
+    font-size: 12.5px;
+    margin-bottom: 5px;
+    margin-top: -2px;
 }
