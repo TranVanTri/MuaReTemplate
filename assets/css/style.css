@@ -21,18 +21,7 @@ body {
   font-weight: 200;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -110,6 +99,15 @@ button {
   border: solid 1px #c7c7c7;
   color: #c7c7c7;
   border-right: 0px;
+  width: 20%;
+}
+
+.dropdown-menu.dropdown-width.show{
+    top: 22px !important;
+}
+
+.contact-child-Tr{
+    width: 90%;
 }
 
 #logo-header .searchtypes button:focus {
@@ -119,6 +117,7 @@ button {
 #logo-header .input-search {
   border-radius: 0px;
   font-size: 12px;
+  width: 60%;
 }
 
 #logo-header .input-search:focus {
@@ -132,19 +131,20 @@ button {
   width: 100%;
   height: 100%;
   text-align: left;
+  padding: 6px;
 }
 
 #logo-header .btnsearch {
   color: white;
   font-size: 14px;
-  float: left;
+  /* float: left; */
   background: #ea2349;
   font-weight: bold;
-  padding: 5px 10px 5px 10px;
+  width: 20%;
 }
 #logo-header .btn-login {
-  padding: 0px 8px 0px 8px;
 }
+
 
 /* MENU-HEADER */
 /*CONTRACT HEADER: HÃ  Ná»™i - LiÃªn há»‡ quáº£ng cÃ¡o - Há»— trá»£*/
