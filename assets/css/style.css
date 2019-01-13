@@ -53,7 +53,7 @@ button {
 }*/
 
 /*****************HEADER********************************/
-/*CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ*/
+/*CONTRACT HEADER: HÃ  Ná»™i - LiÃªn há»‡ quáº£ng cÃ¡o - Há»— trá»£*/
 #navigationbar #contract-header {
   background-color: rgb(44, 89, 135); /* #2c5987 */
   width: 100%;
@@ -74,7 +74,7 @@ button {
 .iconstyle {
   padding: 6px;
 }
-/*Liên hệ quảng cáo*/
+/*LiÃªn há»‡ quáº£ng cÃ¡o*/
 .cheader-item2 {
   padding-left: 100px;
   padding-right: 40px;
@@ -83,12 +83,12 @@ button {
   vertical-align: bottom;
 }
 /*Adjusting: show dropdown's items on hover*/
-/*Hỗ trợ on header*/
+/*Há»— trá»£ on header*/
 .support-header {
   color: rgb(102, 102, 102);
   text-align: left;
 }
-/*header2 part of Hỗ trợ on header*/
+/*header2 part of Há»— trá»£ on header*/
 .header2-support-item {
   padding: 8px;
 }
@@ -147,7 +147,7 @@ button {
 }
 
 /* MENU-HEADER */
-/*CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ*/
+/*CONTRACT HEADER: HÃ  Ná»™i - LiÃªn há»‡ quáº£ng cÃ¡o - Há»— trá»£*/
 #navigationbar #menu-header {
   background-color: rgb(44, 89, 135); /* #2c5987 */
   width: 100%;
@@ -718,7 +718,7 @@ h1.title-box, h2.title-box {
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
-/*Trang Trước - Trang sau - Tin up mới nhất*/
+/*Trang TrÆ°á»›c - Trang sau - Tin up má»›i nháº¥t*/
 .pagination-box {
     padding: 0;
     line-height: 0;
@@ -749,7 +749,7 @@ h1.title-box, h2.title-box {
     border: 1px solid #ccc;
 }
 /* TOP VIP */
-/* cái cục TOP VIP góc trái đỏ đỏ*/
+/* cÃ¡i cá»¥c TOP VIP gÃ³c trÃ¡i Ä‘á» Ä‘á»*/
 .row.post-items.border-items {
     margin-left: 0;
     margin-right: 0;
@@ -884,7 +884,7 @@ table .td-info .price .my-price {
     display: inline;
     line-height: 20px;
 }
-/* KHUNG SẢN PHẨM BÊN DƯỚI KHUNG TOP VIP*/
+/* KHUNG Sáº¢N PHáº¨M BÃŠN DÆ¯á»šI KHUNG TOP VIP*/
 .img-rounded {
     border-radius: 6px;
 }
@@ -946,7 +946,7 @@ table .td-info .user-post .username .username-h4 a {
     color: #666;
     vertical-align: middle;
 }
-.post-date-ad { /*postdate cho mấy phần khung quảng cáo TOP VIP....*/
+.post-date-ad { /*postdate cho máº¥y pháº§n khung quáº£ng cÃ¡o TOP VIP....*/
     display: table-cell;
     vertical-align: bottom;
     padding-left: 25px;
@@ -1004,7 +1004,7 @@ table .td-info .user-post .username .username-h4 a {
 
 
 
-/*  ---------------------- Sản phẩm mới nhất  ----------------------*/
+/*  ---------------------- SAN PHAM MOI NHAT  ----------------------*/
 
 .right-col .title-block {
   font-family: Roboto-Regular;
@@ -1062,9 +1062,9 @@ table .td-info .user-post .username .username-h4 a {
   padding-top: 2px;
 }
 
-/*  Kết thúc sản phẩm mới nhất  */
+/*  KET THUC PHAN SAN PHAM MOI NHAT  */
 
-/*  ---------------------- chia sẽ mới của cộng dồng ----------------*/
+/*  ---------------------- chia SE CONG DONG ----------------*/
 
 .large-title {
   margin: 0 0 10px 0;
@@ -1132,14 +1132,14 @@ table .td-info .user-post .username .username-h4 a {
   bottom: -7px;
   left: 25px;
 }
-/*hình ảnh thu nhỏ*/
+/*hÃ¬nh áº£nh thu nhá»*/
 .chip {
   display: inline-block;
   padding: 10px 0 10px 0;
   border-radius: 25px;
   font-size: 13px;
   width: 100%;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .chip img {
@@ -1150,19 +1150,19 @@ table .td-info .user-post .username .username-h4 a {
   border-radius: 50%;
 }
 
-/* kết thúc chia sẽ mới của cộng dồng */
+/* KET THUC PHAN CHIA SE CONG DONG */
 
-/*Tin đăng mới nhất*/
+/*Tin DANG MOI NHAT*/
 .tindangmoinhat {
   padding-left: 0;
   margin-left: 0;
 }
 .allNews {
-  margin: 5px;
+  /* margin: 0; */
 }
 
 .recentNew {
-  width: 48%;
+  width: 49%;
   display: inline-block;
   border: 1px solid #dfdfdf;
   background: #f9f9f9;
@@ -1172,13 +1172,18 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .tieudetintuc {
-  text-overflow: ellipsis;
-  margin: 0;
-  font-size: 24px;
+  margin: 10px 0;
 }
 
 .tieudetintuc a {
-  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.tieudetintuc a:hover {
+  color: #337ab7;
 }
 
 .noidungTin {
@@ -1187,8 +1192,8 @@ table .td-info .user-post .username .username-h4 a {
   padding: 5px 0 5px 5px;
 }
 .canTraiNoiDung {
-  margin: 0px;
-  padding: 0;
+  padding: 0 0 0 10px;
+  margin: 0;
   text-align: justify;
   font-size: 13px;
   color: #666;
@@ -1198,6 +1203,7 @@ table .td-info .user-post .username .username-h4 a {
   vertical-align: top;
   /*font-family: Roboto-Regular;*/
 }
+
 
 .imgTinDangMoiNhat {
   display: table-cell;
@@ -1218,9 +1224,9 @@ table .td-info .user-post .username .username-h4 a {
   overflow: hidden;
 }
 
-/* Kết thúc tin đăng mới nhất*/
+/* KET THUC PHAN TIN DANG MOI NHAT*/
 
-/*-------------- Phẩn More information - xem tất cả tin đăng*---------------*/
+/*-------------- PHAN More information - xem TAT CA TIN DANG*---------------*/
 
 .most-post {
   text-align: center;
@@ -1234,9 +1240,9 @@ table .td-info .user-post .username .username-h4 a {
   font-size: unset;
 }
 
-/*   Kết thúc Phẩn More information - xem tất cả tin đăng*------*/
+/*   KET THUC PHAN More information - xem TAT CA TIN DANG*------*/
 
-/*-------------------------------      Trang khách hàng login */
+/*-------------------------------      Trang KHACH HANG login */
 .modal-content {
   border-radius: 0;
   background: transparent;
@@ -1353,10 +1359,10 @@ table .td-info .user-post .username .username-h4 a {
   border: 1px solid #5d5b5b;
   text-transform: uppercase;
 }
-/*Kết thúc trang khách hàng login*/
+/*KET THUC PHAN TRANG KHACH HANG login*/
 
 
-/*-------------- Phẩn Tim nguoi ban tai khu vuc*---------------*/
+/*-------------- PHAN Tim nguoi ban tai khu vuc*---------------*/
 
 .glyphicon {
     font-size: 13px;
@@ -1401,7 +1407,7 @@ table .td-info .user-post .username .username-h4 a {
     margin-bottom: 12px;
     font-weight: bold;
 }
-/*   Kết thúc Phẩn Tim nguoi ban tai khu vuc*------*/
+/*   KET THUC PHAN Tim nguoi ban tai khu vuc*------*/
 
 /* FOOOTER */
 .footer {
@@ -1493,9 +1499,9 @@ table .td-info .user-post .username .username-h4 a {
   height: 35px;
 }
 
-/* ------------------------Kết thúc footer*/
+/* ------------------------END footer*/
 
-/* ------------------------------------ Trang chi tiết sản phẩm  ---------------------------  */
+/* ------------------------------------ Trang chi tiáº¿t sáº£n pháº©m  ---------------------------  */
 .service-title-tomiot {
     line-height: 30px;
     border: 1px solid #ddd;
@@ -1589,10 +1595,10 @@ table .td-info .user-post .username .username-h4 a {
     
 }
 
-/* Kết thúc trang chi tiết sản phẩm */
+/* Káº¿t thÃºc trang chi tiáº¿t sáº£n pháº©m */
 
 
-/**************************Tất cả tin đăng******************************/
+/**************************TAT CA TIN DANG******************************/
 .large-title-2-Tr{
     border-top: 1px dashed #ddd;
 }
@@ -1641,4 +1647,4 @@ table .td-info .user-post .username .username-h4 a {
     text-decoration: underline;
 }
 
-/**************************End Tất cả tin đăng******************************/
+/**************************End TAT CA TIN DANG******************************/
