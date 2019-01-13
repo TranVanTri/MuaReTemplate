@@ -24,11 +24,11 @@
 <body>
 
 	<section class="header">
-		<!-- navbar - navigation bar:  -->
-    	<div id="navigationbar">
+        <!-- navbar - navigation bar:  -->
+        <div id="navigationbar">
             <!-- CONTRACT HEADER: Hà Nội - Liên hệ quảng cáo - Hỗ trợ -->
             <div id="contract-header">
-                <div style="width: 90%;">
+                <div class="contact-child-Tr">
                 <ul class="pagination toplinks" style="width: auto;">
                     <li class="page-item">
                         <div class="dropdown">
@@ -78,47 +78,45 @@
             </div>
             
             <!-- LOGO-HEADER: LOGO - SEARCH BAR - SIGN IN - SIGN UP - CART -->
-            <div id="logo-header" class="container-fluid">
-                <div class="row" style="width: 88%;margin-left: 6%;margin-right: 6%;">
-    		<!-- menu 2 -->
-                        <div class="col-lg-2 col-sm-3 col-md-2 col-xs-12 logo">
-                            <a class="logo" title="Tìm là có, ngó là mua, vừa là bán" href="https://muare.vn"><img src="https://static8.muarecdn.com/original/muare/images/2018/05/25/4657344_new-logo.png" alt="Tìm là có, ngó là mua, vừa là bán"></a>
-                        </div>
-                        <div class="col-lg-7 col-sm-4 col-md-6 col-xs-12" style="margin-top: 1%;">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="searchtypes dropdown col-md-5 col-lg-5 col-sm-5">
-                                      <button type="button" data-toggle="dropdown" class="btn-tatca">
-                                        Tất cả &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                                      </button>
-                                      <div class="dropdown-menu" style="margin: 1px 0px 0px -16px;border-radius: 0px;border-top: 0px;font-size: 12px;">
-                                        <a class="dropdown-item" href="#">Hà Nội</a>
-                                        <a class="dropdown-item" href="#">Hải Phòng</a>
-                                        <a class="dropdown-item" href="#">Đà Nẵng</a>
-                                        <a class="dropdown-item" href="#">TP. Hồ Chí Minh</a>
-                                        </div>
+            <div id="logo-header" class="container">
+                <div class="row">
+            <!-- menu 2 -->
+                    <div class="col-lg-2 ">
+                        <a class="logo" title="Tìm là có, ngó là mua, vừa là bán" href="https://muare.vn"><img src="https://static8.muarecdn.com/original/muare/images/2018/05/25/4657344_new-logo.png" alt="Tìm là có, ngó là mua, vừa là bán"></a>
+                    </div>
+                    <div class="col-lg-7 " style="margin-top: 1%;">
+                            <form>
+                            <div class="input-group-prepend" style="height: 29px;">
+                                <div class="searchtypes dropdown">
+                                  <button type="button" data-toggle="dropdown" class="btn-tatca">
+                                    Tất cả &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                                  </button>
+                                  <div class="dropdown-menu" style="border-radius: 0px;border-top: 0px;font-size: 12px;">
+                                    <a class="dropdown-item" href="#">Hà Nội</a>
+                                    <a class="dropdown-item" href="#">Hải Phòng</a>
+                                    <a class="dropdown-item" href="#">Đà Nẵng</a>
+                                    <a class="dropdown-item" href="#">TP. Hồ Chí Minh</a>
                                     </div>
-                                    
-                                    <input type="text" class="input-search form-control col-md-12 col-lg-12 col-sm-12" placeholder="Tìm kiếm..." aria-label="" aria-describedby="basic-addon1">
-                                    
-                                    <button class="btnsearch col-md-3 col-lg-3 col-sm-3" type="button">TÌM KIẾM</button>
                                 </div>
+                                
+                                <input type="text" class="input-search form-control " placeholder="Tìm kiếm..." aria-label="" aria-describedby="basic-addon1">
+                                
+                                <button class="btnsearch" type="button">TÌM KIẾM</button>
                             </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-5 col-md-4 col-xs-12 giohangIcon" style="margin-top: 1.5%;font-size: 13px;">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <a href="#" class="btn-login" style="padding-left: 8px;color: #ff6c00;font-weight: bold;">Đăng nhập</a>
-                                    <span style="color: #a7a6a6">|</span>
-                                    <a href="#" class="btn-login" style="color: black;font-weight: bold;">Đăng ký</a>
-                                    <!-- Giỏ hàng -->
-                                    <!--<i class="fas fa-shopping-cart" style="padding: 0px 4px;color: rgb(44,89,135);"></i>-->
-                                    
-                                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABPAAAATwBTZvJDgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAG3SURBVDiNrdOxa1NRFMfx73nEVsVBoQpOWUoVNQFxFkf9AxQa6eJiN3Ez0SWTieDgLKJFtD5ox0JxMrUiDhJq21ctsR2kBCUWSpG2Ma/35yDBokleXvBM9x7O/XDOvVwbytwf6LdGEkC73tbO5oHVz9M36vQYXh+NOckeOcd1mbu5//CP1+mReyd6BROGrgi3Gvh3vgGkh++e3w1dFrjWK/pXyM5kCvO9nvb+TZmQVU6PFAb/EwjgZszpQi+gtUqeGi6c9YxyTCtsyEu27HDJz84B6zE7W1j2b1XbjGySeBMHlDQGbe8QgJkYXj3s43lHUFCKAU59enp7vSO4dLL+AWyjK072pLlsP3I+70CzUZZBdeDrzsto8Hd0cY/2rFTKh81dolOpzJs1ubdmPGhXU1fi1d59R/Bodbv8/Xj/oYXx7CSYortt81P2RipTfCi0bNb61V3DasFE9kv34NXCEYkKqAyck2wSwEyXMXuPSCqsp4OJ/E+IfhTM844B7xZf5C6C1QI/Nxr4uVGw2uJ49hKw4vYdTDbrI8H5we2KwWYqU1wTevxnNBtLZYprMm18HNpaaeZ/AaZCpwGRuyJPAAAAAElFTkSuQmCC" style="margin-top: -8px;" class="btn-login"><abbr style="color: black;font-weight: bold;">Giỏ Hàng</abbr></a>
-                                    <!-- End giỏ hàng -->
-                                </div>
+                            </form>
+                    </div>
+                    <div class="col-lg-3 giohangIcon" style="margin-top: 1.5%;font-size: 13px;">
+                        
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a href="#" class="btn-login" style="color: #ff6c00;font-weight: bold;">Đăng nhập<span style="color: #a7a6a6"> | </span></a>
+                                <a href="#" class="btn-login" style="color: black;font-weight: bold;">Đăng ký</a>
+                                 <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABPAAAATwBTZvJDgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAG3SURBVDiNrdOxa1NRFMfx73nEVsVBoQpOWUoVNQFxFkf9AxQa6eJiN3Ez0SWTieDgLKJFtD5ox0JxMrUiDhJq21ctsR2kBCUWSpG2Ma/35yDBokleXvBM9x7O/XDOvVwbytwf6LdGEkC73tbO5oHVz9M36vQYXh+NOckeOcd1mbu5//CP1+mReyd6BROGrgi3Gvh3vgGkh++e3w1dFrjWK/pXyM5kCvO9nvb+TZmQVU6PFAb/EwjgZszpQi+gtUqeGi6c9YxyTCtsyEu27HDJz84B6zE7W1j2b1XbjGySeBMHlDQGbe8QgJkYXj3s43lHUFCKAU59enp7vSO4dLL+AWyjK072pLlsP3I+70CzUZZBdeDrzsto8Hd0cY/2rFTKh81dolOpzJs1ubdmPGhXU1fi1d59R/Bodbv8/Xj/oYXx7CSYortt81P2RipTfCi0bNb61V3DasFE9kv34NXCEYkKqAyck2wSwEyXMXuPSCqsp4OJ/E+IfhTM844B7xZf5C6C1QI/Nxr4uVGw2uJ49hKw4vYdTDbrI8H5we2KwWYqU1wTevxnNBtLZYprMm18HNpaaeZ/AaZCpwGRuyJPAAAAAElFTkSuQmCC" style="margin-top: -8px;" class="btn-login"><abbr style="color: black;font-weight: bold;">Giỏ Hàng</abbr></a>
+                        <!-- End giỏ hàng -->
                             </div>
+                           
                         </div>
+                    </div>
                 </div>
             </div>
             
@@ -163,7 +161,7 @@
                             <a class="dropdown-item dropdown-itemlv1" href="#">Cộng đồng</a>
                           </div>
                     
-                        <button type="button" style="color: white;background: #079c50;height: 100%;float: right;padding: 6px 16px;margin-right: 16px;cursor: pointer;">
+                        <button type="button" class="btn-dang-tin-Tr">
                             <abbr style="font-size: 14px;vertical-align: middle;">ĐĂNG TIN</abbr>
                         </button>
                     </div>
@@ -193,7 +191,7 @@
                 </div>
             </div>
         </div>
-	</section>
+    </section>
 
 	<section class="quang-cao-top">
 		

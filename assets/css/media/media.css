@@ -132,3 +132,12 @@
 	}
 
 }
+@media (max-width: 321px){
+	.btn-dang-tin-Tr{	    
+	    padding: 6px 10px;
+	    margin-right: unset;
+	    
+	}
+
+}
+
