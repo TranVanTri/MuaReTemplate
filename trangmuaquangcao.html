@@ -29,7 +29,6 @@
           <link href="assets/css/muaquangcao.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/media/media.css">
-    <script src='Chart.min.js'></script> <!-- Thư viện vẽ các dạng biểu đồ - Chart -->
 
 
 </head>
@@ -390,13 +389,22 @@
     <section class="muaquangcao" style="font-family: Roboto, sans-serif;">
         <div class="row" style="width: 86%;margin-left: 7%;margin-right: 7%;padding: 5% 1% 5%;">
             <div class="col-sm-3 col-lg-3 col-md-3 col-xs-12" style="padding: 16px 0px 0px 32px;">
-                <p><a style="cursor: pointer;"><i class="fas fa-dollar-sign icon-ad-L"></i>
+                <p><a id="bgtv" style="cursor: pointer;"><i class="fas fa-dollar-sign icon-ad-L"></i>
                     Bảng giá tư vấn</a></p>
-                <p><a style="cursor: pointer;"><i class="fas fa-user icon-ad-L"></i>
+                <p><a id="nvtv" style="cursor: pointer;"><i class="fas fa-user icon-ad-L"></i>
                 Nhân viên tư vấn</a></p>
             </div>
-            
-            <div class="col-sm-9 col-lg-9 col-md-9 col-xs-12" style="border-left: 1px solid #c6c4c4;">
+            <script language="javascript">
+                document.getElementById("bgtv").onclick = function () {
+                    document.getElementById("banggiatuvan").style.display = 'block';
+                    document.getElementById("nhanvientuvan").style.display = 'none';
+                };
+                document.getElementById("nvtv").onclick = function () {
+                    document.getElementById("banggiatuvan").style.display = 'none';
+                    document.getElementById("nhanvientuvan").style.display = 'block';
+                };
+            </script>
+            <div id="banggiatuvan" class="col-sm-9 col-lg-9 col-md-9 col-xs-12" style="border-left: 1px solid #c6c4c4;">
                 <div class="container">
                   <h4 style="padding: 16px 0px 16px;">Bảng giá các dịch vụ</h4>
                   <div id="accordion" style="padding-left: 16px;">
@@ -663,35 +671,94 @@
                         <div class="card-body" style="padding-top: 8px;padding-left: 32px;">
                             
                             <!-- Nội dung phần báo giá quảng cáo trên Muare -->
-                          <img src="assets/images/trangmuaquangcao/muarebanner.png" class="center">
-                            <h4 class="title-baogiaad-L"><span>THÔNG TIN TRAFFIC</span></h4>
-                            <div class="row">
-                                <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12" >
-                                    <h5 class="h5-baogiaad-L">ĐỘC GIẢ CHÍNH</h5>
-                                    <p class="content-baogiaad-L">Phụ nữ, tri thức, độ tuổi từ 23-35</p>
-                                    <h5 class="h5-baogiaad-L" style="margin-top: 22%;">WEBSITE</h5>
-                                    <p class="numbers-baogiaad-L" style=""><a href="#">https://muare.vn</a></p>
+                            <div class="thongtintraffic">
+                                <img src="assets/images/trangmuaquangcao/muarebanner.png" class="center">
+                                <h4 class="title-baogiaad-L"><span>THÔNG TIN TRAFFIC</span></h4>
+                                <div class="row">
+                                    <div class="col-sm-4 col-lg-4 col-md-4 col-xs-12" >
+                                        <h5 class="h5-baogiaad-L">ĐỘC GIẢ CHÍNH</h5>
+                                        <p class="content-baogiaad-L">Phụ nữ, tri thức, độ tuổi từ 23-35</p>
+                                        <h5 class="h5-baogiaad-L" style="margin-top: 22%;">WEBSITE</h5>
+                                        <p class="numbers-baogiaad-L" style=""><a href="#">https://muare.vn</a></p>
+                                    </div>
+                                    <div class="col-sm-3 col-lg-3 col-md-3 col-xs-12" >
+                                        <h5 class="h5-baogiaad-L">PAGEVIEWS<abbr class="content-baogiaad-L"> (lượt/tháng)</abbr></h5>
+                                        <p class="numbers-baogiaad-L">2,367,028</p>
+                                        <h5 class="h5-baogiaad-L">VISITS<abbr class="content-baogiaad-L"> (lượt/tháng)</abbr></h5>
+                                        <p class="numbers-baogiaad-L">924,827</p>
+                                        <h5 class="h5-baogiaad-L">TIME ON SITE</h5>
+                                        <p class="numbers-baogiaad-L">00:02:37</p>
+                                    </div>
+                                    <div class="col-sm-5 col-lg-5 col-md-5 col-xs-12" >
+                                        <h5 class="h5-baogiaad-L">PHÂN BỔ VÙNG MIỀN<p class="content-baogiaad-L">(Theo Google Analytics)</p></h5>
+                                        <img src="assets/images/trangmuaquangcao/bieudo.png" style="margin-top: -12px;">
+                                        <b style="float: left;font-size: 12px;font-weight: bold;">(*) Số liệu được cập nhật tháng 10.2017</b>
+                                    </div>
                                 </div>
-                                <div class="col-sm-3 col-lg-3 col-md-3 col-xs-12" >
-                                    <h5 class="h5-baogiaad-L">PAGEVIEWS<abbr class="content-baogiaad-L"> (lượt/tháng)</abbr></h5>
-                                    <p class="numbers-baogiaad-L">2,367,028</p>
-                                    <h5 class="h5-baogiaad-L">VISITS<abbr class="content-baogiaad-L"> (lượt/tháng)</abbr></h5>
-                                    <p class="numbers-baogiaad-L">924,827</p>
-                                    <h5 class="h5-baogiaad-L">TIME ON SITE</h5>
-                                    <p class="numbers-baogiaad-L">00:02:37</p>
-                                </div>
-                                <div class="col-sm-5 col-lg-5 col-md-5 col-xs-12" >
-                                    <h5 class="h5-baogiaad-L">PHÂN BỔ VÙNG MIỀN<p class="content-baogiaad-L">(Theo Google Analytics)</p></h5>
-                                    <canvas id="canvas" height="450" width="610">
-                                        <script>
-                                            var myPieChart = new Chart(document.getElementById("canvas").getContext("2d")).Pie(PieChart);
-                                            
-                                        </script>
-                                    </canvas>
 
-                                    
+                                <h5 class="h5-baogiaad2-L" style="margin-top: 16px;">QUY ĐỊNH VỀ BANNER</h5>
+                                <ul class="content-baogiaad-L" style="margin-left: 16px;">
+                                    <li>Đơn giá chưa bao gồm VAT 10%</li>
+                                    <li>Chế độ chia sẻ 3 theo user</li>
+                                    <li>Thời gian quảng cáo dưới 7 ngày được tính tròn 1 tuần</li>
+                                    <li>Thời gian quảng cáo dưới 7 ngày được tính tròn 1 tuần</li>
+                                    <li>Thời gian quảng cáo dưới 7 ngày được tính tròn 1 tuần</li>
+                                </ul>
+
+                                <h5 class="h5-baogiaad2-L" style="margin-top: 16px;">CHI PHÍ QUẢNG CÁO</h5>
+                                <ul class="content-baogiaad-L" style="margin-left: 16px;">
+                                    <li>Chi phí hosting video trong banner (dung lượng tối đa 3MB): 3,000,000 VNĐ/Ngày</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="baogiachitiet">
+                                <h4 class="title-baogiaad-L" style="margin-top: 32px;"><span>BÁO GIÁ CHI TIẾT</span></h4>
+                                <div class="tables-baogia-L table-responsive" style="border: 1px solid black;box-shadow: 0px 0px 0.7px 0.7px #a2a2a2;">
+                                    <table class="table table-hover baogiatable-L">
+                                        <thead>
+                                        <tr>
+                                            <th width="8%">Vị trí</th>
+                                            <th width="37%">Tên vị trí</th>
+                                            <th width="20%">Kích thước (pixel)</th>
+                                            <th width="16%">Hình thức chia sẻ</th>
+                                            <th width="19%">Giá xuyên trang (triệu VNĐ/Tuần)</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Top Banner</td>
+                                            <td>1160x90</td>
+                                            <td>3</td>
+                                            <td>2,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Top Banner</td>
+                                            <td>1160x90</td>
+                                            <td>3</td>
+                                            <td>2,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Top Banner</td>
+                                            <td>1160x90</td>
+                                            <td>3</td>
+                                            <td>2,5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Top Banner</td>
+                                            <td>1160x90</td>
+                                            <td>3</td>
+                                            <td>2,5</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
+                            
+                            <h4 style="color: #338d21;font-weight: bold;padding: 32px 0px 0px 0px;">Liên hệ Hotline: 096 906 1788 để được tư vấn tốt nhất</h4>
                         </div>
                       </div>
                     </div>
@@ -699,6 +766,19 @@
                   </div>
                 </div>
             </div>
+            
+            <div style="display: none;border-left: 1px solid #c6c4c4;" id="nhanvientuvan" class="col-sm-9 col-lg-9 col-md-9 col-xs-12" style="border-left: 1px solid #c6c4c4;">
+                <div class="container">
+                    <h6 style="padding: 16px 0px 16px;color: #1674af;font-weight: bold;">Liên hệ trực tiếp với kinh doanh để được giá tốt</h6>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                    <span class="nvtuvan-frame-L"><i class="fas fa-phone-volume" style="color: #2570a8;font-size: 16px;"></i>  Bích Phương: 0982 181 392</span>
+                </div>
+            </div>
+            
         </div>
     </section>
 
