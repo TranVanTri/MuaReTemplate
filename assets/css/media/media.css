@@ -2,6 +2,10 @@
 	.right-col {
 	    display: none;
 	}
+
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: 30%;
+	}
 }
 
 
@@ -37,6 +41,15 @@
 		margin: 15px 26px 5px;
 	}
 
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: 30%;
+	    margin-bottom: 5px;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-service-Tr{
+    	margin-left: 32%;
+	}
+
 }
 
 @media (max-width: 816px){
@@ -61,6 +74,15 @@
 
 	.dropdown-menu.dropdown-width.show{
 	    left: -35px !important;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: 17%;
+	    margin-bottom: 5px;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-service-Tr{
+    	margin-left: 20%;
 	}
 
 }
@@ -89,6 +111,15 @@
 		width: 80px;
 	}
 
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: 10%;
+	    margin-bottom: 5px;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-service-Tr{
+    	margin-left: 13%;
+	}
+
 }
 
 
@@ -100,6 +131,15 @@
 	#logo-header {
 	    padding-top: 9.5%;
    		padding-bottom: 2.5%;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: -7%;
+	    margin-bottom: 5px;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-service-Tr{
+    	margin-left: -2%;
 	}
 }
 
@@ -137,6 +177,15 @@
 	    padding: 6px 10px;
 	    margin-right: unset;
 	    
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-item-Tr{
+	    margin-left: -17%;
+	    margin-bottom: 5px;
+	}
+
+	.create-storage-body-Tr .select-type-post .select-type-service-Tr{
+    	margin-left: -11%;
 	}
 
 }
