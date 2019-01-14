@@ -1744,7 +1744,7 @@ table .td-info .user-post .username .username-h4 a {
     width: 60px;
     height: 60px;
     position: absolute;
-    left: -4;
+    left: -4px;
     top: 0;
     content: "";
 }
@@ -1764,11 +1764,12 @@ table .td-info .user-post .username .username-h4 a {
     font-weight: bold;
 }
 
-.create-storage-body-Tr .select-type-post{
+.create-storage-body-Tr .select-type-post button{
     background-color: #fff;
     border: 1px solid #ff8000;
     border-radius: 5px;
     font-size: 24px;
+    font-family: Roboto-Bold;
     padding: 10px 30px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
