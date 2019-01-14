@@ -1598,7 +1598,7 @@ table .td-info .user-post .username .username-h4 a {
 
 }
 #table_product_tomiot{
-	display: table;
+	display: inline-flex;
 	padding: 20px 10px 5px 20px;
 }
 #img_shop_tomiot{
@@ -1638,7 +1638,7 @@ table .td-info .user-post .username .username-h4 a {
 .img_splq_tomiot{
 	border-radius: 3px;
 	width: 55px;
-	display: table-cell;
+	/*display: table-cell;*/
 }
 .thong_tin_splq_tomiot{
 	display: table-cell;
@@ -1678,5 +1678,156 @@ table .td-info .user-post .username .username-h4 a {
     border-radius: 10px;
     -webkit-box-shadow: 0 1px 20px #ccc;
     box-shadow: 0 1px 20px #ccc;
+}
+
+#chu-gian-hang-tomiot{
+  margin-bottom: 0;
+  color: black;
+  text-align: left;
+}
+
+.border_solid_tomiot{
+  border: 1px solid #ccc;
+}
+.chu_shop_area_tomiot{
+  /*display: table;*/
+  padding: 10px;  
+}
+
+.avt_chu_shop_tomiot{
+  /*display: table-cell;*/
+  /*float: left;*/
+}
+.avt_chu_shop_tomiot a img {
+  border-radius: 50%;
+  padding: 0;
+  margin:0;
+  float: left;
+}
+.thong_tin_chu_shop_tomiot{
+  display: table;
+  padding-left: 10px;
+}
+.theo_doi_shop_tomiot{
+  text-align: center;
+}
+.theo_doi_shop_tomiot button{
+  
+}
+.ten_chu_shop_tomiot{
+  text-align: left;
+  float: left;
+  font-weight: bold;
+}
+.custom_btn_chu_shop_tomiot{
+     padding: 0; 
+
+}
+.xem_gian_hang_shop_tomiot{
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+.google_map_shop_tomiot{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.google_map_shop_tomiot p{
+  text-align: center;
+}
+.dia_chi_shop_tomiot{
+  padding: 10px 5px 5px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+.so_phone_cua_shop_tomiot{
+  text-align: center;
+  
+}
+.so_phone_cua_shop_tomiot button{
+  padding: 0;
+  border-radius: 25px;
+  background: green;
+  width: 80%;
+  font-weight: bold;
+
+}
+.huongdan{
+      margin-top: 10px;
+    font-family: Roboto-Italic;
+    color: #777;
+}
+.huong-dan-1{
+    font-size: 15px;
+    color: #777;
+    text-transform: uppercase;
+    font-family: roboto-bold;
+}
+.huong-dan-2{
+    list-style: circle;
+    padding: 0 12px 0 0;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+.noi_dung_tin_khac_tomiot{
+  width: 100%;
+    padding: 0;
+}
+.noi_dung_tin_khac_tomiot ul{
+    margin: 0;
+    padding: 0;
+}
+.noi_dung_tin_khac_tomiot ul li{
+      list-style-type: none;
+    border-top: 1px solid #ddd;
+    padding: 15px 8px;
+    display: inline-block;
+    width: 100%;
+}
+
+.noi_dung_tin_khac_tomiot ul li .post-title .post-title-h3 {
+    margin: 0;
+    font-size: 13px;
+}
+.noi_dung_tin_khac_tomiot ul li .post-title .post-title-h3 a {
+
+    font-size: 13px;
+    color: #176093;
+    line-height: 15.6px;
+}
+.noi_dung_tin_khac_tomiot ul li .post-info {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+
+}
+
+.noi_dung_tin_khac_tomiot ul li .post-info .date {
+    color: #666;
+    font-size: 12px;
+    float: left;
+    width: 50%;
+}
+
+.noi_dung_tin_khac_tomiot ul li .post-info .category {
+    color: #000;
+    font-size: 12px;
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.noi_dung_tin_khac_tomiot ul li .post-info .category .post-info-category-h4 {
+    margin: 0;
+    font-size: 12px;
+}
+
+.noi_dung_tin_khac_tomiot ul li .post-info .category .post-info-category-h4 a {
+    color: #000;
+    font-size: 12px;
 }
 /* Kết thúc trang chi tiết sản phẩm */
