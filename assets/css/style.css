@@ -1691,3 +1691,88 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 /***************End Back to top***********************/
+
+/**************TRANG DANG TIN CHUNG create-storage****************/
+.create-storage-header-Tr{
+    padding: 0;
+}
+.step-bar-Tr span{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    font-size: 12px;
+}
+
+.step-bar-Tr span:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.step-bar-Tr .current-step-Tr span{
+    border-bottom: 2px solid #ff8000;
+}
+
+.step-bar-Tr .current-step-Tr span:after{
+    border-bottom: 5px solid #ff8000;
+}
+
+.create-storage-body-Tr{
+    padding: 0;
+}
+
+.create-storage-body-Tr .select-type-post{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 65px;
+    position: relative;
+}
+.create-storage-body-Tr .select-type-post:before{
+    background-position: -5px 0;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: -4;
+    top: 0;
+    content: "";
+}
+
+
+.create-storage-body-Tr .select-type-post:before{
+    display: inline-block;
+    background: url('../images/trangtindangchung/storage-icon.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+.create-storage-body-Tr .select-type-post .select-note-Tr{
+    font-size: 13px;
+    font-style: italic;
+    color: #333;
+    font-weight: bold;
+}
+
+.create-storage-body-Tr .select-type-post{
+    background-color: #fff;
+    border: 1px solid #ff8000;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+/**************END TRANG DANG TIN CHUNG create-storage****************/
