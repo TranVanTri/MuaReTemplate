@@ -144,6 +144,17 @@ $(document).ready(function() {
 	            break;
 	    }            
 	});
+
+	// back to top
+
+	$(window).scroll(function(event) {
+		var vt_body= $('html,body').scrollTop();
+		if(vt_body >= 300){
+			$('.back-to-top').addClass('show');
+		}else {
+			$('.back-to-top').removeClass('show');
+		}
+	});
 	
 });
 
