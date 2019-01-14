@@ -164,6 +164,7 @@ button {
   font-size: 12px;
 }
 .dropdown-menu {
+    margin-top: 4px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -188,9 +189,9 @@ button {
   position: relative;
 }
 .dropdown-submenu > .dropdown-menu {
-  top: 0;
+  top: -12px;
   left: 100%;
-  margin-top: -7px;
+  /*margin-top: -7px;*/
   margin-left: 0.5px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
