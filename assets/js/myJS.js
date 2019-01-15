@@ -131,6 +131,20 @@ $(document).ready(function() {
 	if ($('#chon-loai-san-pham-Tr').length) {
 		$('#chon-loai-san-pham-Tr').fSelect();
 	}
+
+	//click chon anh
+
+	if($('.add-new-Tr').length){
+		$('.add-new-Tr').click(function(event) {
+			$('.upload-service').trigger('click');
+		});
+	}
+
+	if($('.add-img-Tr').length){
+		$('.add-img-Tr').click(function(event) {
+			$('.upload-product-Tr').trigger('click');
+		});
+	}
 	
 });
 

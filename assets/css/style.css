@@ -42,7 +42,7 @@ button {
 }*/
 
 /*****************HEADER********************************/
-/*CONTRACT HEADER: HÃ  Ná»™i - LiÃªn há»‡ quáº£ng cÃ¡o - Há»— trá»£*/
+/*CONTRACT HEADER: HÃƒÂ  NÃ¡Â»â„¢i - LiÃƒÂªn hÃ¡Â»â€¡ quÃ¡ÂºÂ£ng cÃƒÂ¡o - HÃ¡Â»â€” trÃ¡Â»Â£*/
 #navigationbar #contract-header {
   background-color: rgb(44, 89, 135); /* #2c5987 */
   width: 100%;
@@ -63,7 +63,7 @@ button {
 .iconstyle {
   padding: 6px;
 }
-/*LiÃªn há»‡ quáº£ng cÃ¡o*/
+/*LiÃƒÂªn hÃ¡Â»â€¡ quÃ¡ÂºÂ£ng cÃƒÂ¡o*/
 .cheader-item2 {
   padding-left: 100px;
   padding-right: 40px;
@@ -72,12 +72,12 @@ button {
   vertical-align: bottom;
 }
 /*Adjusting: show dropdown's items on hover*/
-/*Há»— trá»£ on header*/
+/*HÃ¡Â»â€” trÃ¡Â»Â£ on header*/
 .support-header {
   color: rgb(102, 102, 102);
   text-align: left;
 }
-/*header2 part of Há»— trá»£ on header*/
+/*header2 part of HÃ¡Â»â€” trÃ¡Â»Â£ on header*/
 .header2-support-item {
   padding: 8px;
 }
@@ -147,7 +147,7 @@ button {
 
 
 /* MENU-HEADER */
-/*CONTRACT HEADER: HÃ  Ná»™i - LiÃªn há»‡ quáº£ng cÃ¡o - Há»— trá»£*/
+/*CONTRACT HEADER: HÃƒÂ  NÃ¡Â»â„¢i - LiÃƒÂªn hÃ¡Â»â€¡ quÃ¡ÂºÂ£ng cÃƒÂ¡o - HÃ¡Â»â€” trÃ¡Â»Â£*/
 #navigationbar #menu-header {
   background-color: rgb(44, 89, 135); /* #2c5987 */
   width: 100%;
@@ -729,7 +729,7 @@ h1.title-box, h2.title-box {
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
-/*Trang TrÆ°á»›c - Trang sau - Tin up má»›i nháº¥t*/
+/*Trang TrÃ†Â°Ã¡Â»â€ºc - Trang sau - Tin up mÃ¡Â»â€ºi nhÃ¡ÂºÂ¥t*/
 .pagination-box {
     padding: 0;
     line-height: 0;
@@ -760,7 +760,7 @@ h1.title-box, h2.title-box {
     border: 1px solid #ccc;
 }
 /* TOP VIP */
-/* cÃ¡i cá»¥c TOP VIP gÃ³c trÃ¡i Ä‘á» Ä‘á»*/
+/* cÃƒÂ¡i cÃ¡Â»Â¥c TOP VIP gÃƒÂ³c trÃƒÂ¡i Ã„â€˜Ã¡Â»Â Ã„â€˜Ã¡Â»Â*/
 .row.post-items.border-items {
     margin-left: 0;
     margin-right: 0;
@@ -895,7 +895,7 @@ table .td-info .price .my-price {
     display: inline;
     line-height: 20px;
 }
-/* KHUNG Sáº¢N PHáº¨M BÃŠN DÆ¯á»šI KHUNG TOP VIP*/
+/* KHUNG SÃ¡ÂºÂ¢N PHÃ¡ÂºÂ¨M BÃƒÅ N DÃ†Â¯Ã¡Â»Å¡I KHUNG TOP VIP*/
 .img-rounded {
     border-radius: 6px;
 }
@@ -957,7 +957,7 @@ table .td-info .user-post .username .username-h4 a {
     color: #666;
     vertical-align: middle;
 }
-.post-date-ad { /*postdate cho máº¥y pháº§n khung quáº£ng cÃ¡o TOP VIP....*/
+.post-date-ad { /*postdate cho mÃ¡ÂºÂ¥y phÃ¡ÂºÂ§n khung quÃ¡ÂºÂ£ng cÃƒÂ¡o TOP VIP....*/
     display: table-cell;
     vertical-align: bottom;
     padding-left: 25px;
@@ -1143,7 +1143,7 @@ table .td-info .user-post .username .username-h4 a {
   bottom: -7px;
   left: 25px;
 }
-/*hÃ¬nh áº£nh thu nhá»*/
+/*hÃƒÂ¬nh Ã¡ÂºÂ£nh thu nhÃ¡Â»Â*/
 .chip {
   display: inline-block;
   padding: 10px 0 10px 0;
@@ -1512,7 +1512,7 @@ table .td-info .user-post .username .username-h4 a {
 
 /* ------------------------END footer*/
 
-/* ------------------------------------ Trang chi tiáº¿t sáº£n pháº©m  ---------------------------  */
+/* ------------------------------------ Trang chi tiÃ¡ÂºÂ¿t sÃ¡ÂºÂ£n phÃ¡ÂºÂ©m  ---------------------------  */
 .service-title-tomiot {
     line-height: 30px;
     border: 1px solid #ddd;
@@ -1849,7 +1849,7 @@ table .td-info .user-post .username .username-h4 a {
     color: #000;
     font-size: 12px;
 }
-/* Kết thúc trang chi tiết sản phẩm */
+/* Káº¿t thÃºc trang chi tiáº¿t sáº£n pháº©m */
 
 
 
@@ -2224,10 +2224,10 @@ table .td-info .user-post .username .username-h4 a {
     border-bottom: 1px solid #ddd;
 }
 
-.post-form-Tr input[name=price] {
+/*.post-form-Tr input[name=price] {
     width: 200px;
     display: inline-block;
-}
+}*/
 
 .price-item-Tr .vnd-Tr {
     margin-left: -20px;
@@ -2252,7 +2252,7 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .attr-box-Tr label {
-    margin: 3px 0 0 5px;
+    margin: 5px 0 5px 5px;
 }
 
 .propertyItem-Tr label {
@@ -2279,6 +2279,36 @@ table .td-info .user-post .username .username-h4 a {
 .post-form-Tr input[type=checkbox], .post-form-Tr input[type=radio] {
     margin: 4px 0 0;
     line-height: normal;
+}
+
+.post-advance-Tr .contact-box-title-Tr {
+    margin-top: 0;
+    padding-left: 5px;
+    border-left: 5px solid #ffbf00;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 13px;
+    font-family: Roboto-Bold;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.post-advance-Tr .note-advance-Tr {
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.post-advance-Tr .note-advance-Tr a {
+    color: #ff8000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-advance-Tr .row label {
+    padding: 0;
+    font-size: 13px;
 }
 
 /************END DANG TIN SAN PHAM*******************/
