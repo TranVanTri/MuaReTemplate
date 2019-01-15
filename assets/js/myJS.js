@@ -48,38 +48,6 @@ $(document).ready(function() {
 		}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//  {		
-
-		//   	// trang chi tiet danh muc
-		  	
-		  	
-		  	
-		// }
-
-		// if(){
-		// 	$('#menu-category').parent().hide();
-		// 	$('#menu-category').parent().removeClass('col-lg-2 col-md-2');
-		//   	$('#view-post').parent().removeClass('col-lg-10 col-md-10');
-		//   	$('#view-post').parent().addClass('col-lg-12 col-md-12');
-		// }else {
-		// 	$('#menu-category').parent().show();
-		// 	$('#menu-category').parent().addClass('col-lg-2 col-md-2');
-		// 	$('#view-post').parent().addClass('col-lg-10 col-md-10');
-		//   	$('#view-post').parent().removeClass('col-lg-12 col-md-12');
-		// }
 	});
 	// owl-carousel sản phẩm độc đáo
 	if($('.promoteProduct.row.owl-carousel').length){
