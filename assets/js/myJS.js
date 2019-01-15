@@ -155,6 +155,14 @@ $(document).ready(function() {
 			$('.back-to-top').removeClass('show');
 		}
 	});
+
+	// multi select
+	if ($('#chon-danh-muc-multi-Tr').length) {
+		$('#chon-danh-muc-multi-Tr').fSelect();
+	}
+	if ($('#chon-loai-san-pham-Tr').length) {
+		$('#chon-loai-san-pham-Tr').fSelect();
+	}
 	
 });
 

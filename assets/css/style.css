@@ -1253,7 +1253,7 @@ table .td-info .user-post .username .username-h4 a {
 /*   KET THUC PHAN More information - xem TAT CA TIN DANG*------*/
 
 /*-------------------------------      Trang KHACH HANG login */
-.modal-content {
+.modal-content-tomiot {
   border-radius: 0;
   background: transparent;
   position: relative;
@@ -1606,43 +1606,43 @@ table .td-info .user-post .username .username-h4 a {
 
 }
 #hinh_anh_shop_tomiot{
-	 border-radius: 10px;
+     border-radius: 10px;
     border: 1px solid #ccc;
     -webkit-box-shadow: 0 1px 20px #ccc;
     box-shadow: 0 1px 20px #ccc;
 
 }
 #table_product_tomiot{
-	display: inline-flex;
-	padding: 20px 10px 5px 20px;
+    display: inline-flex;
+    padding: 20px 10px 5px 20px;
 }
 #img_shop_tomiot{
-	display: table-cell;
+    display: table-cell;
 }
 #thong_tin_san_pham_tomiot{
-	display: inline-block;
-	padding-left: 20px;
+    display: inline-block;
+    padding-left: 20px;
 }
 .facebook_button_tomiot{
-	padding: 20px 0 10px 10px;
+    padding: 20px 0 10px 10px;
 }
 #san_pham_lien_quan_tomiot{
-	padding: 20px 10px 10px 10px;
-	text-align: left;
-	font-size: 17px;
-	font-weight: bold;
+    padding: 20px 10px 10px 10px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
 }
 .list_item_tomiot{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .danhsach_sp_lien_quan_tomiot{
-	    width: 100%;
+        width: 100%;
     display: inline-block;
     padding: 15px 0;
 }
 .sp_lien_quan_tomiot{
-	padding: 0 5px;
+    padding: 0 5px;
     display: table;
 
     
@@ -1653,17 +1653,17 @@ table .td-info .user-post .username .username-h4 a {
     display: table;
 }
 .img_splq_tomiot{
-	border-radius: 3px;
-	width: 55px;
-	/*display: table-cell;*/
+    border-radius: 3px;
+    width: 55px;
+    /*display: table-cell;*/
 }
 .thong_tin_splq_tomiot{
-	display: table-cell;
-	list-style-type: none;
-	padding: 0 10px;
+    display: table-cell;
+    list-style-type: none;
+    padding: 0 10px;
 }
 .tieu_de_splq_tomiot{
-	font-family: Roboto-Bold;
+    font-family: Roboto-Bold;
     font-size: 14px;
     color: #176093;
     display: inline-block;
@@ -1675,10 +1675,10 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .nguoi_ban_de_xuat_tomiot{
-	padding: 20px;
+    padding: 20px;
 }
 .ds_cac_sp_de_xuat_tomiot{
-	    font-family: Roboto-Bold;
+        font-family: Roboto-Bold;
     font-size: 14px;
     color: #175f92;
     line-height: 18.8px;
@@ -1686,13 +1686,13 @@ table .td-info .user-post .username .username-h4 a {
     display: inline-block;
 }
 .gia_tien_spdx_tomiot{
-	font-family: Roboto-Regular;
+    font-family: Roboto-Regular;
     font-size: 16px;
     color: #d80000;
     line-height: 19.2px;
 }
 .image_spdx_tomiot{
-	 width: 100%;
+     width: 100%;
     border-radius: 10px;
     -webkit-box-shadow: 0 1px 20px #ccc;
     box-shadow: 0 1px 20px #ccc;
@@ -2034,6 +2034,15 @@ table .td-info .user-post .username .username-h4 a {
 /**************END TRANG DANG TIN CHUNG create-storage****************/
 
 /************DANG TIN SAN PHAM*******************/
+.post-form-Tr{
+    width: 100%;
+    display: table;
+}
+
+.post-form-Tr .post-attr-Tr .row-attr-Tr{
+    margin-top: 10px;
+}
+
 .post-attr-Tr{
     margin: 0 auto;
     vertical-align: top;
@@ -2056,9 +2065,175 @@ table .td-info .user-post .username .username-h4 a {
     margin-left: 20px;
 }
 
-.boder-summary-Tr {
+.boder-summary-Tr, .post-info-Tr {
     padding: 0 15px 20px!important;
     border: 1px solid #ddd;
     margin-bottom: 20px;
 }
+
+.boder-summary-Tr label, .post-info-Tr label{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.post-form-Tr .row-post-price-Tr{
+    position: relative;
+}
+
+.post-form-Tr input[name=price] {
+    width: 300px;
+    display: inline-block;
+}
+
+.post-form-Tr .row-post-price-Tr span {
+    position: absolute;
+    top: 5px;
+    left: 295px;
+    color: #ccc;
+}
+
+.post-form-Tr .forum-thread-infor-Tr .fs-wrap {
+    width: 300px;
+}
+
+.post-form-Tr #location-post-Tr {
+    width: 300px;
+}
+
+.post-form-Tr .storage-box-Tr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    padding-right: 15px;
+    max-height: 500px;
+    margin: 0 auto;
+    vertical-align: top;
+    width: 800px;
+    /*overflow-y: scroll;
+    overflow-x: hidden;*/
+}
+
+.post-form-Tr .add-box-Tr {
+    position: relative;
+    list-style: none;
+    height: 140px;
+    width: 50rem;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+
+.box-image-Tr{
+    margin: 0;
+    padding: 0;
+}
+
+.add-new-Tr {
+    border: 1px dashed #999;
+    background: url('../images/trangtindangchung/add-new-item.png') no-repeat 50%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.upload-Tr{
+    display: none;
+}
+
+.add-box-Tr span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #aaa;
+    width: 100%;
+    text-align: center;
+}
+
+.post-advance-Tr{
+    margin: 0 auto;
+    vertical-align: top;
+    width: 800px;
+    padding: 10px 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ffe599;
+    background: #fffcf0;
+    margin-bottom: 30px;
+}
+
+.postSubmit-Tr{
+    text-align: center;
+    margin-top: 39px;
+    color: #ffffff;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.modal-content-Tr{
+    border-radius: 0;
+    position: relative;
+}
+.ajax-loading{
+    width: 100%;
+    height: 100%;
+    background: url('../images/trangtindangchung/loading1.gif') no-repeat 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+
+.modal-header-Tr {
+    background: #176093;
+    padding: 10px;
+    padding-left: 15px;
+    border-top-left-radius: unset; 
+     border-top-right-radius: unset; 
+}
+
+.modal-header-Tr .close i.fas {
+    color: #ffffff;   
+}
+
+.modal-header-Tr h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: unset;
+}
+
+.modal-body .title-attr-Tr {
+    margin: 0 0 10px;
+    padding: 5px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-form-Tr input[name=price] {
+    width: 200px;
+    display: inline-block;
+}
+
+.price-item-Tr .vnd-Tr {
+    margin-left: -20px;
+    color: #999;
+}
+
+.attr-basic-Tr label{
+    font-size: 12px;
+    color: #000;
+    line-height: 35px;
+    font-weight: bold;
+}
+
 /************END DANG TIN SAN PHAM*******************/
