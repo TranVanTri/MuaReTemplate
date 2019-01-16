@@ -1,4 +1,3 @@
-
 * {
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -504,458 +503,463 @@ button.button span {
 
 /************************End Sp Doc Dao*****************************/
 
-
 /*************************MENU LEFT CATEGORY***************************/
-#menu-category{
-    padding: 0;
+#menu-category {
+  padding: 0;
 }
 
-#menu-category .title-category{
-    text-transform: uppercase;
-    font-size: 18px;
-    color: #000;
-    line-height: 12px;
-    padding: 0 0 20px;
-    margin: 5px 0 0;
+#menu-category .title-category {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #000;
+  line-height: 12px;
+  padding: 0 0 20px;
+  margin: 5px 0 0;
 }
 
-#menu-category .category{
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+#menu-category .category {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
-#menu-category .category a{
-    color: #000;
-}
-
-#menu-category .category .all-cate{
-    font-size: 13px;
+#menu-category .category a {
+  color: #000;
 }
 
-#menu-category .category .parent .category-h2{
-    font-size: 13px;
-    margin: 0;
-    font-weight: bold;
+#menu-category .category .all-cate {
+  font-size: 13px;
 }
 
-#menu-category .category .parent .category-h2 a{
-    font-size: 14px;
-    line-height: 15.6px;
+#menu-category .category .parent .category-h2 {
+  font-size: 13px;
+  margin: 0;
+  font-weight: bold;
 }
 
-
-
-#menu-category .category .child{
-    margin-top: 5px;
-    padding: 0 0 0 10px;
+#menu-category .category .parent .category-h2 a {
+  font-size: 14px;
+  line-height: 15.6px;
 }
 
-#menu-category .category .child li{
-    list-style-type: none;
-    padding: 2px 0;
+#menu-category .category .child {
+  margin-top: 5px;
+  padding: 0 0 0 10px;
+}
+
+#menu-category .category .child li {
+  list-style-type: none;
+  padding: 2px 0;
 }
 
 #menu-category .category .child li:before {
-    display: block;
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid #888;
-    left: 15px;
-    margin-top: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #888;
+  left: 15px;
+  margin-top: 5px;
 }
 
-#menu-category .category .child li a{
-    font-size: 13px;
-    text-decoration: none;
-    margin: 0;
-    margin-bottom: 5px;
+#menu-category .category .child li a {
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 #menu-category .show {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
-#menu-category .show .title-blur{
-    font-size: 14px;
-    color: #999;
-    text-transform: uppercase;
-    padding: 0;
+#menu-category .show .title-blur {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  padding: 0;
 }
 #menu-category .show .radio {
-    position: relative;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#menu-category .show .radio input[type=radio] {
-    display: none;
+#menu-category .show .radio input[type="radio"] {
+  display: none;
 }
-
 
 #menu-category .show .radio .find_radio_lb {
-    font-size: 14px;
-    color: #000;
-    padding-left: 25px;
-    background: url('../images/chitietdanhmuc/post-list.png') no-repeat;
-    background-position: 0 -117px;
-    height: 21px;
-    line-height: 21px;
-    cursor: pointer;
-    font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  padding-left: 25px;
+  background: url("../images/chitietdanhmuc/post-list.png") no-repeat;
+  background-position: 0 -117px;
+  height: 21px;
+  line-height: 21px;
+  cursor: pointer;
+  font-weight: 300;
 }
 
-#menu-category .show .radio input[type=radio]:checked+.find_radio_lb {
-    background-position: 0 -141px;
+#menu-category .show .radio input[type="radio"]:checked + .find_radio_lb {
+  background-position: 0 -141px;
 }
 
-#menu-category .show .label{
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: 700;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
+#menu-category .show .label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
 }
 #menu-category .show .label-success {
-    background-color: #5cb85c;
+  background-color: #5cb85c;
 }
 
 #menu-category .show .radio .find_radio_lb a.type-ranger {
-    color: #000;
+  color: #000;
 }
 
-.filter-stop{
-    border-bottom: 1px solid #ddd;
+.filter-stop {
+  border-bottom: 1px solid #ddd;
 }
 
-#menu-category .find .title-blur{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999;
-    line-height: 16.8px;
-    padding: 10px 0;
+#menu-category .find .title-blur {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #999;
+  line-height: 16.8px;
+  padding: 10px 0;
 }
 
 #menu-category .find .quality {
-    /*padding: 5px 0;*/
+  /*padding: 5px 0;*/
 }
 
-#menu-category .find .quality .title, #menu-category .find .price .title {
-    font-size: 13px;
-    color: #333;
-    text-transform: uppercase;
-    line-height: 16.8px;
-    font-weight: bold;
+#menu-category .find .quality .title,
+#menu-category .find .price .title {
+  font-size: 13px;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 16.8px;
+  font-weight: bold;
 }
 
 #menu-category .find .quality .form-group {
-    margin: 2px 0;
+  margin: 2px 0;
 }
 #menu-category .find .quality .form-group label .quality-ranger {
-    color: #000;
+  color: #000;
 }
 
-#menu-category .find .filter .form-group input[type=checkbox], 
-#menu-category .find .quality .form-group input[type=checkbox] {
-    display: none;
-    height: 50px;
+#menu-category .find .filter .form-group input[type="checkbox"],
+#menu-category .find .quality .form-group input[type="checkbox"] {
+  display: none;
+  height: 50px;
 }
 
-#menu-category .find .filter .form-group input[type=checkbox]:checked+label, 
-#menu-category .find .quality .form-group input[type=checkbox]:checked+label {
-    background-position: -16px -243px;
+#menu-category .find .filter .form-group input[type="checkbox"]:checked + label,
+#menu-category
+  .find
+  .quality
+  .form-group
+  input[type="checkbox"]:checked
+  + label {
+  background-position: -16px -243px;
 }
 
-#menu-category .find .filter .form-group input[type=checkbox]+label, 
-#menu-category .find .quality .form-group input[type=checkbox]+label {
-    font-size: 12px;
-    color: #333;
-    padding-left: 20px;
-    background: url(../images/chitietdanhmuc/post-list.png) no-repeat;
-    background-position: -18px -230px;
-    height: 13px;
-    line-height: 12px;
-    margin-right: 15px;
-    cursor: pointer;
-    margin-bottom: 0;
+#menu-category .find .filter .form-group input[type="checkbox"] + label,
+#menu-category .find .quality .form-group input[type="checkbox"] + label {
+  font-size: 12px;
+  color: #333;
+  padding-left: 20px;
+  background: url(../images/chitietdanhmuc/post-list.png) no-repeat;
+  background-position: -18px -230px;
+  height: 13px;
+  line-height: 12px;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-bottom: 0;
 }
 
 #menu-category .find .price {
-    padding: 15px 0;
+  padding: 15px 0;
 }
 
-#menu-category .find .price .title{
-    padding: 0 0 10px;
+#menu-category .find .price .title {
+  padding: 0 0 10px;
 }
 
 #menu-category .find .price .find-price .list-price {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #menu-category .find .price .find-price .list-price li {
-    list-style-type: none;
-    cursor: pointer;
-    font-size: 12px;
-    padding: 5px 0;
-    color: #333;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 0;
+  color: #333;
 }
 #menu-category .find .price .find-price .list-price li a.price-ranger {
-    color: #000;
+  color: #000;
 }
-
 
 /*************************END MENU LEFT CATEGORY***************************/
 
 /* NOI DUNG CHI TIET DANH MUC */
-h1.title-box, h2.title-box {
-    color: #0088cb;
-    font-size: 20px;
-    font-family: Roboto-Regular,Roboto,sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
+h1.title-box,
+h2.title-box {
+  color: #0088cb;
+  font-size: 20px;
+  font-family: Roboto-Regular, Roboto, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .count-result {
-    margin: 5px 0 0;
-    font-size: 12px;
-    color: #999;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #999;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
 }
 /*Trang TrÃ†Â°Ã¡Â»â€ºc - Trang sau - Tin up mÃ¡Â»â€ºi nhÃ¡ÂºÂ¥t*/
 .pagination-box {
-    padding: 0;
-    line-height: 0;
-    height: 50px;
+  padding: 0;
+  line-height: 0;
+  height: 50px;
 }
 .pagination2 {
-    margin: 10px 0;
-    float: left;
-    padding-left: 0;
-    border-radius: 0px;
+  margin: 10px 0;
+  float: left;
+  padding-left: 0;
+  border-radius: 0px;
 }
-.pagination2>li>a {
-    color: #000;
-    border-radius: 0px;
+.pagination2 > li > a {
+  color: #000;
+  border-radius: 0px;
 }
 .sorting {
-    display: inline-block;
-    float: right;
-    margin: 10px 0;
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
 }
 .sorting_select {
-    height: 30px;
-    font-style: italic;
-    color: #736c6c;
-    font-size: 13px;
-    padding: unset;
-    background: #fff;
-    border: 1px solid #ccc;
+  height: 30px;
+  font-style: italic;
+  color: #736c6c;
+  font-size: 13px;
+  padding: unset;
+  background: #fff;
+  border: 1px solid #ccc;
 }
 /* TOP VIP */
 /* cÃƒÂ¡i cÃ¡Â»Â¥c TOP VIP gÃƒÂ³c trÃƒÂ¡i Ã„â€˜Ã¡Â»Â Ã„â€˜Ã¡Â»Â*/
 .row.post-items.border-items {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .border-items {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-top: 5px;
-    margin-left: 0;
-    margin-right: 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .post-items {
-    margin-bottom: 17px!important;
-    padding: 15px 10px;
-    padding-bottom: 0;
-    position: relative;
+  margin-bottom: 17px !important;
+  padding: 15px 10px;
+  padding-bottom: 0;
+  position: relative;
 }
 .post_sticky {
-    position: absolute;
-    top: 5px;
-    left: -6px;
-    z-index: 8;
-    padding: 3px 10px;
-    color: #fff;
-    background: #e00;
-    border: 1px dotted #fff;
-    font-weight: bold;
-    font-size: 13px;
-    font-family: Roboto-Black,Roboto,sans-serif;
-    margin: 0;
+  position: absolute;
+  top: 5px;
+  left: -6px;
+  z-index: 8;
+  padding: 3px 10px;
+  color: #fff;
+  background: #e00;
+  border: 1px dotted #fff;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Roboto-Black, Roboto, sans-serif;
+  margin: 0;
 }
 
 table .td-avatar {
-    width: 150px;
+  width: 150px;
 }
 .avatar {
-    position: relative;
+  position: relative;
 }
 table .td-avatar a {
-    color: #337ab7;
-    text-decoration: none;
-    background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: transparent;
 }
 table .td-avatar img {
-    vertical-align: middle;
-    border: 0;
+  vertical-align: middle;
+  border: 0;
 }
 .views-count {
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-    padding: 5px;
-    margin-top: 10px;
-    background: #eee;
-    border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  padding: 5px;
+  margin-top: 10px;
+  background: #eee;
+  border-radius: 10px 10px 0 0;
 }
 .views-count span {
-    font-family: Roboto-Regular;
-    font-size: 14px;
+  font-family: Roboto-Regular;
+  font-size: 14px;
 }
 .posts-list .views-count .glyphicon-eye-open:before {
-    color: #999;
-    background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5) no-repeat;
-    background-position: 0 -204px;
-    width: 20px;
-    height: 14px;
-    content: "";
-    float: left;
-    margin-right: 10px;
-    margin-top: -2px;
+  color: #999;
+  background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5)
+    no-repeat;
+  background-position: 0 -204px;
+  width: 20px;
+  height: 14px;
+  content: "";
+  float: left;
+  margin-right: 10px;
+  margin-top: -2px;
 }
 .glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: Glyphicons Halflings;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: Glyphicons Halflings;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 table .td-info {
-    vertical-align: text-bottom;
-    padding-left: 10px;
+  vertical-align: text-bottom;
+  padding-left: 10px;
 }
 .box-info {
-/*
+  /*
     border-bottom: 1px dotted #ccc;
 */
 }
 .box-info .title {
-    float: left;
-    width: 100%;
-    min-height: 33px;
-}  
+  float: left;
+  width: 100%;
+  min-height: 33px;
+}
 .box-info-h3 a {
-    font-family: Roboto-Bold,Roboto,sans-serif;
-    font-size: 14px;
-    
-    padding-bottom: 10px;
-    float: left;
-    font-weight: bold;
-    color: #175f92!important;
-    line-height: 17px;
-    margin-top: -3px;
-    float: left;
-    text-transform: none;
-    text-decoration: none;
+  font-family: Roboto-Bold, Roboto, sans-serif;
+  font-size: 14px;
+
+  padding-bottom: 10px;
+  float: left;
+  font-weight: bold;
+  color: #175f92 !important;
+  line-height: 17px;
+  margin-top: -3px;
+  float: left;
+  text-transform: none;
+  text-decoration: none;
 }
 table .td-info .location .my-location {
-    color: #666;
-    font-size: 12.5px;
-    font-family: Roboto-Regular,Roboto,sans-serif;
-    display: inline;
-    line-height: 14px;
+  color: #666;
+  font-size: 12.5px;
+  font-family: Roboto-Regular, Roboto, sans-serif;
+  display: inline;
+  line-height: 14px;
 }
 .my-location .marker-h4 {
-    margin: 0;
-    display: inherit;
-    font-size: 12px;
+  margin: 0;
+  display: inherit;
+  font-size: 12px;
 }
 table .td-info .price .price-des {
-    color: #666;
-    font-size: 13px;
-    font-family: Roboto-Regular,Roboto,sans-serif;
-    display: inline;
+  color: #666;
+  font-size: 13px;
+  font-family: Roboto-Regular, Roboto, sans-serif;
+  display: inline;
 }
 table .td-info .price .my-price {
-    color: #d80000;
-    font-size: 18px;
-    display: inline;
-    line-height: 20px;
+  color: #d80000;
+  font-size: 18px;
+  display: inline;
+  line-height: 20px;
 }
 /* KHUNG SÃ¡ÂºÂ¢N PHÃ¡ÂºÂ¨M BÃƒÅ N DÃ†Â¯Ã¡Â»Å¡I KHUNG TOP VIP*/
 .img-rounded {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 .td-avatar .avatar img.lazy-image {
-    border-radius: 10px;
-    -webkit-box-shadow: 0 1px 20px #ccc;
-    box-shadow: 0 1px 20px #ccc;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 20px #ccc;
+  box-shadow: 0 1px 20px #ccc;
 }
 
 table .td-info .location {
-    padding-top: 0;
+  padding-top: 0;
 }
-@media only screen and (max-width: 375px) and (min-width: 320px)
-.location {
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+  .location {
     float: left;
+  }
 }
+
 table .td-info .location .glyphicon.glyphicon-map-marker {
-    color: #d1d1d1;
+  color: #d1d1d1;
 }
 
 table .td-info .price {
-    padding-top: 0;
-    font-size: 12px;
-    color: #333;
-    white-space: nowrap;
-    font-family: DIN,Helvetica,Arial,sans-serif;
+  padding-top: 0;
+  font-size: 12px;
+  color: #333;
+  white-space: nowrap;
+  font-family: DIN, Helvetica, Arial, sans-serif;
 }
 table .td-info .status {
-    padding-top: 5px;
-    font-size: 12px;
-    color: #666;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #666;
 }
 table .td-info .user-post {
-    margin-top: 5px;
-    display: table;
+  margin-top: 5px;
+  display: table;
 }
 table .td-info .user-post .my-avatar {
-    display: table-cell;
+  display: table-cell;
 }
 table .td-info .user-post .username {
-    display: table-cell;
-    vertical-align: bottom;
-    padding-left: 5px;
-    font-size: 12px;
-    color: #000;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #000;
 }
 table .td-info .user-post .username .username-h4 {
-    margin: 0;
-    font-size: 12px;
+  margin: 0;
+  font-size: 12px;
 }
 table .td-info .user-post .username .username-h4 a {
-    color: #000;
+  color: #000;
 }
 .post-date {
-    display: table-cell;
-    vertical-align: bottom;
-    padding-left: 25px;
-    font-size: 12px;
-    color: #666;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: bottom;
+  padding-left: 25px;
+  font-size: 12px;
+  color: #666;
+  vertical-align: middle;
 }
 .post-date-ad { /*postdate cho mÃ¡ÂºÂ¥y phÃ¡ÂºÂ§n khung quÃ¡ÂºÂ£ng cÃƒÂ¡o TOP VIP....*/
     display: table-cell;
@@ -966,11 +970,11 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .last-comment {
-    padding: 0px 0px 5px;
-    width: 100%;
-    display: table;
-    height: 40px;
-    margin-top: -10px;
+  padding: 0px 0px 5px;
+  width: 100%;
+  display: table;
+  height: 40px;
+  margin-top: -10px;
 }
 .last-comment .cmt {
     font-size: 12px;
@@ -983,33 +987,35 @@ table .td-info .user-post .username .username-h4 a {
     font-weight: unset;
 }
 .posts-list .last-comment .count_cmt .cmt:before {
-    color: #999;
-    background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5) no-repeat;
-    background-position: 0 -165px;
-    width: 20px;
-    height: 19px;
-    content: "";
-    float: left;
-    margin-right: 5px;
-    margin-top: -2px;
+  color: #999;
+  background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5)
+    no-repeat;
+  background-position: 0 -165px;
+  width: 20px;
+  height: 19px;
+  content: "";
+  float: left;
+  margin-right: 5px;
+  margin-top: -2px;
 }
 .last-comment .count_cmt {
-    display: table-cell;
-    width: 100px;
-    vertical-align: middle;
+  display: table-cell;
+  width: 100px;
+  vertical-align: middle;
 }
 .last-comment .follow {
-    display: table-cell;
-    width: 30px;
-    vertical-align: middle;
+  display: table-cell;
+  width: 30px;
+  vertical-align: middle;
 }
 .posts-list .last-comment .follow .icon-follow {
-    width: 31px;
-    height: 29px;
-    float: right;
-    background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5) no-repeat;
-    background-position: 0 -60px;
-    cursor: pointer;
+  width: 31px;
+  height: 29px;
+  float: right;
+  background: url(https://static18.muarecdn.com/images/post_list/post-list.png?v=5)
+    no-repeat;
+  background-position: 0 -60px;
+  cursor: pointer;
 }
 
 
@@ -1376,47 +1382,15 @@ table .td-info .user-post .username .username-h4 a {
 /*-------------- PHAN Tim nguoi ban tai khu vuc*---------------*/
 
 .glyphicon {
-    font-size: 13px;
-    color: #333;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 5px;
-    background: none;
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
-  }
-  .glyphicon span i {
-       font-size: 25px;
-
-  }
-  .box-location{
-    border: 1px solid #dff1ff;
-    background: #f2f9ff;
-    padding: 10px 15px;
-    float: left;
-    width: 300px;
-  }
-  .location-items {
-    float: left;
-    height: 27px;
-    font-size: 13px;
-    padding: 0 5px;
-    border: 1px solid #dff1ff;
-    border-radius: 2px;
-    width: 100%;
-  }
-#form-location input{
-    width: 100%;
-    color: #fff;
-    font-size: 13px;
-    text-transform: uppercase;
-    background: #009eea;
-    border: none;
-    height: 33px;
-    margin-top: 15px;
-    margin-bottom: 12px;
-    font-weight: bold;
+  font-size: 13px;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px;
+  background: none;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
 }
 /*   KET THUC PHAN Tim nguoi ban tai khu vuc*------*/
 
@@ -1514,88 +1488,86 @@ table .td-info .user-post .username .username-h4 a {
 
 /* ------------------------------------ Trang chi tiÃ¡ÂºÂ¿t sÃ¡ÂºÂ£n phÃ¡ÂºÂ©m  ---------------------------  */
 .service-title-tomiot {
-    line-height: 30px;
-    border: 1px solid #ddd;
-    background: #eee;
-    padding-left: 10px;
-    font-size: 16px;
-    color: #ffa64d;
-    font-style: italic;
-    margin: 0;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  background: #eee;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #ffa64d;
+  font-style: italic;
+  margin: 0;
 }
 
-.inputUserPhone{
-    padding: 30px 20px 10px 20px;
+.inputUserPhone {
+  padding: 30px 20px 10px 20px;
 }
-#btnUserPhone{
-    background: #155986;
-    color: #fff;
-    font-family: Roboto-Bold;
-    vertical-align: bottom;
-    border-radius: 0;
+#btnUserPhone {
+  background: #155986;
+  color: #fff;
+  font-family: Roboto-Bold;
+  vertical-align: bottom;
+  border-radius: 0;
 }
 
-#listCombo{
-    padding-left: 0;
+#listCombo {
+  padding-left: 0;
 }
 .menuCombo ul li {
-    list-style: none;
-    font-style: italic;
-    text-align: left;
+  list-style: none;
+  font-style: italic;
+  text-align: left;
 }
 .menuCombo ul li .fas {
-    margin-right: 10px;
-    font-size: 9px;
-    color: #ffbf00;
+  margin-right: 10px;
+  font-size: 9px;
+  color: #ffbf00;
 }
-.menuCombo{
-    padding: 20px 10px 0 0;
+.menuCombo {
+  padding: 20px 10px 0 0;
 }
 .border_style {
-/*    border-left: 1px dashed #ddd;
+  /*    border-left: 1px dashed #ddd;
     border-right: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;*/
-    
 }
-.service_news{
-    border-left: 1px dashed #ddd;
-    padding-left: 10px;
-    border-right: 1px dashed #ddd;
+.service_news {
+  border-left: 1px dashed #ddd;
+  padding-left: 10px;
+  border-right: 1px dashed #ddd;
 }
 .inputUserPhone {
-    border-left: 1px dashed #ddd;
-    border-right: 1px dashed #ddd;
+  border-left: 1px dashed #ddd;
+  border-right: 1px dashed #ddd;
 }
 
-.menuCombo{
-    border-right: 1px dashed #ddd;
+.menuCombo {
+  border-right: 1px dashed #ddd;
 }
-#list_combo{
-    border-right: 1px dashed #ddd;
+#list_combo {
+  border-right: 1px dashed #ddd;
 }
-.title_header_tomiot{
-    padding: 5px 0 ;
-    font-size: 15px;
-    color: #175f92;
-    margin: 0;
-    line-height: 19.2px;
-    text-transform: uppercase;
-    color: orange;
+.title_header_tomiot {
+  padding: 5px 0;
+  font-size: 15px;
+  color: #175f92;
+  margin: 0;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  color: orange;
+}
+.timePost_tomiot {
+  font-size: 12px;
+  color: #666;
+  text-transform: lowercase;
+}
 
+#icon_action_tomiot {
+  /*float: right;*/
+  font-size: 30px;
+  display: inline;
 }
-.timePost_tomiot{
-    font-size: 12px;
-    color: #666;
-    text-transform: lowercase;
-}
-
-#icon_action_tomiot{   
-    /*float: right;*/
-    font-size: 30px;
-    display: inline;
-}
-.hovericon:hover{
-    color: orange;
+.hovericon:hover {
+  color: orange;
 }
 
 .new_title_header_tomiot{
@@ -1648,10 +1620,10 @@ table .td-info .user-post .username .username-h4 a {
 
     
 }
-.avatar_splq_tomiot{
-    display: table-cell;
-    vertical-align: top;
-    display: table;
+.avatar_splq_tomiot {
+  display: table-cell;
+  vertical-align: top;
+  display: table;
 }
 .img_splq_tomiot{
     border-radius: 3px;
