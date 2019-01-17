@@ -152,3 +152,138 @@
     margin-right: 16px;
     margin-bottom: 16px;
 }
+
+
+
+
+
+/* TRANG KHO SAN PHAM */
+.product-list-L {
+    float: left;
+    width: 100%;
+}
+.item-L {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 20px 15px 15px;
+    min-height: 320px;
+}
+.avatar-sp-L {
+    padding-bottom: 5px;
+    display: inline-block;
+    position: relative;
+}
+/**/
+.title-sp-L {
+    padding-bottom: 5px;
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.item-title-h2 {
+    margin: 0;
+    font-size: 14px;
+    display: inherit;
+}
+.item-title-h2 a {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #176093;
+    line-height: 18.2px;
+}
+/**/
+.desc-sp-L {
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+}
+.item-desc-h3 {
+    margin: 0;
+    font-size: 13px;
+    display: inline;
+}
+/**/
+.user-post-L {
+    font-size: 12px;
+    color: #666;
+}
+.username-sp-L {
+    float: left;
+    position: relative;
+    padding-bottom: 10px;
+}
+.username-sp-L span {
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
+.username-sp-L .box-arrow-L {
+    position: absolute;
+    top: 24px;
+    left: 45px;
+    min-width: 180px;
+    background: #fff;
+    display: none;
+    z-index: 999;
+}
+.user-info-L {
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 4px;
+    padding: 10px;
+}
+.user-name-L img {
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.user-shop-L {
+    padding-top: 10px;
+    min-width: 310px!important;
+}
+.user-shop-L ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.user-shop-L ul li {
+    padding-left: 1px;
+    text-indent: 2px;
+    font-size: 12px;
+    color: #175f92;
+    font-family: Roboto;
+}
+.user-shop-L ul li span {
+    color: #666;
+}
+/**/
+.post-date-L {
+    float: right;
+    display: none;
+}
+/**/
+.price-sp-L {
+    width: 100%;
+    display: inline-block;
+}
+.product-price-L {
+    font-size: 18px;
+    color: #d80000;
+    line-height: 21.6px;
+    padding: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
