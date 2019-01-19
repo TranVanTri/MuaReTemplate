@@ -200,225 +200,51 @@
 
     <section class="storage_shop">
         <div class="container">
-           
-                <section id="top_loc_san_pham_tomiot"> 
-                   <div class="row">
+
+            <section id="top_loc_san_pham_tomiot"> 
+                 <div class="row">
                     <!-- MEnu lef quản trị -->
-                        <div class="menu_left_storage_tomiot col-md-2">
-                            asd
-                        </div>
-                    <!-- Kết  thúc menu left quản trị -->
+                    <div class="menu_left_storage_tomiot col-md-2">
+                        asd
+                    </div>
+                    <!-- Kết  thúc menu left quản trị -->   
                         <div class="col-md-10 ">
                             <div class="row">
-                                <div id="thong_bao_tomiot" class="col-md-9">
-                                    <p>Hiện đang có 1 sản phẩm trong kho</p>
+                                <div id="thong_bao_tomiot" class="col-md-7">
+                                    <p>Hiện có 1 tin đăng</p>
                                 </div>
-                                <div class="loc_san_pham_tomiot col-md-3" >
-                                    <p class="thong_tin_loc_tomiot">Lọc theo</p>
+                                <div class="loc_san_pham_tomiot col-md-5" >
+                                    <p class="thong_tin_loc_tomiot">Sắp xếp theo</p>
                                     <select  class="combo_loc_tomiot custom-select ">
-                                        <option>Toàn bộ</option>
-                                        <option>Còn hàng</option>
-                                        <option>Hết hàng</option>
-                                        <option>Hàng cũ</option>
+                                        <option>Up mới nhất</option>
+                                        <option>Up cũ nhất</option>
+                                        <option>Đăng mới nhất</option>
+                                        <option>Đăng cũ nhất</option>
                                     </select>
                                 </div>
                             </div>
                             <hr>
-                            <div class="content_quan_ly_cua_hang display_table_tomiot col-md-12">
-                                <div class="row" >
-                                    <div class="them_moi_san_pham_kho_hang_tomiot col-md-3 display_table_cell_tomiot">
-                                        
-
-                                        <!-- Button trigger modal -->
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                                          Thêm sản phẩm
-                                        </button>
-
-                                      <!-- Modal -->
-                                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                                            <div class="modal-dialog modal-lg" role="document">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLongTitle">Thông tin sản phẩm</h5>
-                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                          <span aria-hidden="true">&times;</span>
-                                                      </button>
-                                                    </div>
-
-                                                    <!-- Bắt đầu form -->
-                                                    <form>
-                                                    <div class="modal-body">
-                                                        Cơ bản:<hr>
-                                                        <label class="can_trai_tomiot">Tên sản phẩm</label>
-                                                        <input type="text" minlength="3" required name="" class="form-control" placeholder="Tên sản phẩm cần bán.">
-                                                        <label class="can_trai_tomiot">Giá</label>
-                                                        <input type="number" minlength="1000" name="" class="form-control" placeholder="Giá sản phẩm. Nhỏ nhất 1000đ">
-                                                        <label class="can_trai_tomiot">Mô tả sản phẩm</label>
-                                                        <textarea class="form-control" minlength="5" rows="8" placeholder="Nhập mô tả sản phẩm cần bán"></textarea>
-                                                        <label class="can_trai_tomiot">Loại sản phẩm</label>
-                                                        <select  class="combo_loc_tomiot custom-select ">
-                                                            <option disabled>Thời trang</option>
-                                                            <option>Trang sức</option>
-                                                            <option>Phụ kiện</option>
-                                                            <option disabled>Sim số thể cào</option>
-                                                        </select>
-
-                                                        <label class="can_trai_tomiot">Ảnh sản phẩm</label><br>
-                                                        <input type="file" name="" multiple accept="image/*"/>
-
-                                                        <hr>
-                                                        Nâng cao:
-                                                        <hr>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-4">
-                                                                        <label class="can_trai_tomiot">Trạng thái</label>
-                                                                    </div>
-                                                                    <div class="col-md-8">
-                                                                        <div class="can_trai_tomiot">
-                                                                             <input  type="radio" name="trang_thai_sp" id="" checked="checked" value=""> Còn hàng
-                                                                        <!-- </div>
-                                                                        <div class="can_trai_tomiot"> -->
-                                                                            <input type="radio" name="trang_thai_sp" id="" value=""> Hết hàng
-                                                                        <!-- </div>
-                                                                        <div class="can_trai_tomiot"> -->
-                                                                            <input type="radio" name="trang_thai_sp" id="" value=""> Ngừng bán
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-4">
-                                                                        <label  class="can_trai_tomiot">Tình trạng sản phẩm:</label>
-                                                                    </div>
-                                                                    <div class="col-md-8">
-                                                                        <div class="can_trai_tomiot">
-                                                                            <input type="radio" name="tinh_trang_sp" id="" checked="checked" value=""> Mới
-                                                                            <input type="radio" name="tinh_trang_sp" id="" value=""> Mới 90%
-                                                                            <input type="radio" name="tinh_trang_sp" id="" value=""> Mới 80%
-                                                                            <input type="radio" name="tinh_trang_sp" id="" value=""> Cũ
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                               
-                                                            </div>
-                                                            
-                                                            <div class="col-md-12">
-                                                                <div class="row">
-                                                                    <div class="col-md-4">
-                                                                        <label  class="can_trai_tomiot">Sản phẩm được bán tại:</label>
-                                                                    </div>
-                                                                    <div class="col-md-8">
-                                                                        <div class="can_trai_tomiot">
-                                                                            <input type="checkbox" name="" id="" checked="checked" value=""> Hà Nội
-                                                                            <input type="checkbox" name="" id="" value=""> Hải Phòng
-                                                                            <input type="checkbox" name="" id=""  value=""> Đà Nẵng
-                                                                            <input type="checkbox" name="" id="" value=""> TP.HCM
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        
-                                                        </div>
-
-                                                    </form>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="cancel" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
-                                                        <button type="submit" class="btn btn-primary">Lưu và đóng</button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <diev class="row">
+                                        <div class="col-md-3">
+                                            <img style="height: 150px; width: 100%" src="assets/images/kho-hang/banh-mi-kinh-do.jpg" alt="">
                                         </div>
-
-                                    </div>
-                                    
-                                    <div class="col-md-3  display_table_cell_tomiot">
-                                        <div class="card" >
-                                              <img class="img_sp_kho_hang_tomiot card-img-top" src="assets/images/kho-hang/asus_tablet.jpg" alt="Product's image">
-                                              <div class="card-body">
-                                                <h5 class="can_giua_tomiot card-title">ASUS P008 – Tablet giá tốt, cấu hình ổn</h5>
-                                                
-                                              </div>
-                                              <ul class="list-group list-group-flush">
-                                                <li class="list-group-item"><p class="can_giua_tomiot red_text_tomiot card-text">1 000 000 đ</p></li>
-                                                <li class="list-group-item can_giua_tomiot ">
-                                                    <i class="fas fa-heart"></i> 69
-                                                    <i class="fas fa-comment"></i> 96
-
-                                                </li>
-                                                
-                                              </ul>
-                                              <div class="can_giua_tomiot card-body">
-                                                <a href="#" class=" card-link"><button class="button button_inline_tomiot"><i class="fas fa-pencil-alt"></i> Chỉnh sửa</button></a>
-                                                
-                                              </div>
+                                        <div class="col-md-9">
+                                            <h5>Bán bánh mì</h5>
+                                            <p>Vị trí: 69</p>
+                                            <p>Trong chuyên mục ấm thực(TP.HCM)</p>
                                         </div>
-                                    </div>
-
-                                    <div class="col-md-3 display_table_cell_tomiot">
-                                        <div class="card " >
-                                              <img class="img_sp_kho_hang_tomiot card-img-top" src="assets/images/kho-hang/asus_tablet.jpg" alt="Product's image">
-                                              <div class="card-body">
-                                                <h5 class="can_giua_tomiot card-title">ASUS P008 – Tablet giá tốt, cấu hình ổn</h5>
-                                                
-                                              </div>
-                                              <ul class="list-group list-group-flush">
-                                                <li class="list-group-item"><p class="can_giua_tomiot red_text_tomiot card-text">1 000 000 đ</p></li>
-                                                <li class="list-group-item can_giua_tomiot ">
-                                                    <i class="fas fa-heart"></i> 69
-                                                    <i class="fas fa-comment"></i> 96
-
-                                                </li>
-                                                
-                                              </ul>
-                                              <div class="can_giua_tomiot card-body">
-                                                <a href="#" class=" card-link"><button class="button button_inline_tomiot"><i class="fas fa-pencil-alt"></i> Chỉnh sửa</button></a>
-                                                
-                                              </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-3 display_table_cell_tomiot">
-                                        <div class="card " >
-                                              <img class="img_sp_kho_hang_tomiot card-img-top" src="assets/images/kho-hang/asus_tablet.jpg" alt="Product's image">
-                                              <div class="card-body">
-                                                <h5 class="can_giua_tomiot card-title">ASUS P008 – Tablet giá tốt, cấu hình ổn</h5>
-                                                
-                                              </div>
-                                              <ul class="list-group list-group-flush">
-                                                <li class="list-group-item"><p class="can_giua_tomiot red_text_tomiot card-text">1 000 000 đ</p></li>
-                                                <li class="list-group-item can_giua_tomiot ">
-                                                    <i class="fas fa-heart"></i> 69
-                                                    <i class="fas fa-comment"></i> 96
-
-                                                </li>
-                                                
-                                              </ul>
-                                              <div class="can_giua_tomiot card-body">
-                                                <a href="#" class=" card-link"><button class="button button_inline_tomiot"><i class="fas fa-pencil-alt"></i> Chỉnh sửa</button></a>
-                                                
-                                              </div>
-                                        </div>
-                                    </div>
-
-
-
-
-
-
+                                    </diev>
 
                                 </div>
-
+                                <div class="col-md-3">
+                                    bb
+                                </div>
                             </div>
-                            <hr>
-                        </div> 
-                    </div>
-                </section>
-                
-            
+                        </div>
+                </div>
+            </section>
         </div>
     </section>
 
