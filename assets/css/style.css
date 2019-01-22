@@ -2629,10 +2629,12 @@ table .td-info .user-post .username .username-h4 a {
 }
 
 .thong_tin_loc_tomiot{
+    font-size: 13.5px;
   display: table-cell;
 }
 
 .combo_loc_tomiot{
+    font-size: 13px;
   display: table-cell;
 }
 
@@ -2687,33 +2689,214 @@ table .td-info .user-post .username .username-h4 a {
 /*Ket thuc quan ly kho hang*/
 
 /****************************QUAN LY COMMENT************************************/
-.menu-left-user-L ul{
+.menu-left-user-L{
     border: 1px solid #d9d9d9;
-    padding: 8px;
+    padding: 10px 0;
+    vertical-align: top;
+    min-width: 100px;
 }
 .menu-left-user-L ul li{
     list-style-type: none;
-    padding: 8px 0;
+    padding: 10px 8px;
     font-size: 13px;
-    cursor: pointer;
 }
-.menu-left-user-L ul li:hover{
+.menu-left-user-L ul li a{
+    color: black;
+}
+.menu-left-user-L ul li a:hover{
     color: #ff8000;
 }
-.menu-left-user-L ul li a:visited {
-    background: #ff8000;
+.menu-left-user-L ul li a:focus {
+    background: #ff8000 !important;
     color: white !important;
+    padding: 10px 4px;
 }
-.menu-left-user-L .chevron-icon {
-    font-size: 11px;
-    color: #b9b6b6
+.header-account-m {
+    background: #ff8000;
+    width: 80%;
+    height: 2px;
+    margin-left: 13px;
+    margin-bottom: 12px;
+}
+/*TIN ĐĂNG/SẢN PHẨM TAB*/
+.tab-pane-L{
+    /*background: #f0efef !important;
+    padding: 24px 8px;
+    border: 1px solid #d0d0d0;*/
+padding: 15px 10px;
+    border: 1px solid#dddddd;
+    background: #eeeeee;
+}
+.tab-content-L {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.comment-L {
+    list-style-type: none;
+    background: #fff;
+    padding: 10px 15px 0px 15px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    width: 100%;
+    display: inline-block;
+}
+.pull-left {
+    float: left!important;
+}
+.comment-L .comment-body-L {
+    margin-left: 50px;
+}
+.comment-L .comment-body-L .comment-heading-L .post_title_L {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #666666;
+}
+.comment-L .comment-body-L .comment-heading-L .user-L {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #000000;
+}
+.comment-L .comment-body-L .comment-heading-L .post_title_L a {
+    color: #176093;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.comment-L .comment-body-L .content-L {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+.comment-L .comment-body-L .reply-L {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Roboto;
+    color: #175f92;
+}
+.comment-L .comment-body-L .option-L {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Roboto;
+    color: #666666;
+    padding: 4px 4px;
+}
+
+.dropdown-L {
+    position: relative;
+    display: inline-block;
+}
+.comment-L .comment-body-L .option-L .dropdown-content {
+    left: 0;
+    border: 1px solid#dddddd;
+    background: #fff;
+    padding: 10px 0px;
+    min-width: 125px;
+    
+    
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    z-index: 1;
+}
+.comment-L .comment-body-L .option-L .dropdown-content a{
+    padding: 5px 5px;
+    color: #666666;
+    text-decoration: none;
+    display: block;
+}
+
+.comment-L ul.comments-list {
+    border-left: 1px solid#999999;
+    margin: 0px 0px 8px 50px !important;
+}
+.comment-L .input-reply {
+    /*display: none;*/
+    padding: 0px 0px 15px;
+}
+.input-group-L {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.comment-L .input-reply .item-comment-input {
+    z-index: 0;
+    border-radius: 4px;
+}
+.input-group .form-control {    
+    display: table-cell;
+    position: relative;
+/*
+    z-index: 2;
+*/
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control {
+/*
+    width: 100%;
+*/
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    /*border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    /*-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.form-control, output {
+/*
+    display: block;
+*/
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+}
+.thong_bao_cmt_L{
+    font-size: 15px;
+  display: table-cell;
+    color: rgb(23,95,146);
+    font-weight: bold;
 }
 /****************************KET THUC QUAN LY COMMENT************************************/
 
-
-
-
-
+/*************************TRANG QUAN LY DON HANG**************************************/
+.table-order-L th{
+    text-align: center;
+}
+.product-in-order-L{
+    padding: 8px;
+}
+.price-order-L{
+    font-size: 12px;
+    padding: 8px 0;
+}
+.avgprice-order-L{
+    font-weight: bold;
+    padding: 0 16px;
+}
+.td-center-L{
+    text-align: center;
+    line-height: 1.2em;
+}
+.state-order-L{
+    float: left;
+    text-align: center;
+    padding: 8px 8px 8px 24px;
+}
+.stateorder-color-L{
+    color: #ff8000;
+    font-weight: bold;
+}
+/*************************KET THUC TRANG QUAN LY DON HANG**************************************/
 
 
 
