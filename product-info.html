@@ -243,6 +243,16 @@ function showPicture(imgs) {
   // imgText.innerHTML = imgs.alt;
   // expandImg.parentElement.style.display = "block";
 }
+  function scrollleft() {
+    var elmnt = document.getElementById("abc123");
+    elmnt.scrollLeft += 50;
+  }
+   function scrollright() {
+      var elmnt1 = document.getElementById("abc123");
+      elmnt1.scrollLeft -= 50;
+    }
+  
+
 
 </script>
   <section class="main-container col1-layout home-content-container">
@@ -257,51 +267,45 @@ function showPicture(imgs) {
             <div class="row">
               <div class="box-images col-md-6">
                 <div class="xzoom-container">
-                  <img class="xzoom" id="expandedImg" width="400px"src="https://static8.muarecdn.com/zoom/430_430/muare/images/2019/01/16/4994069_a77.jpg"
+                  <img class="xzoom" id="expandedImg" width="430"src="https://static8.muarecdn.com/zoom/430_430/muare/images/2019/01/16/4994069_a77.jpg"
                     xoriginal="https://static8.muarecdn.com/thumb_w/1000/muare/images/2019/01/16/4994069_a77.jpg" />
                 </div>
                 <div class="scroll-small-img">
-                  <div class="list-img-wrap">
-                    <ul class="list-small-img">
-                      <li>
+                  <div class="list-img-wrap" id="abc123">
+                    <div class="list-small-img">
+                      <div>
                         <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994069_a77.jpg"
                           width="75px" height="75px" onclick="showPicture(this);"/>
-                      </li>
-                      <li>
+                      </div>
+                      <div>
                         <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994071_a76.jpg"
                           width="75px" height="75px" onclick="showPicture(this);"/>
-                      </li>
-                      <li>
+                      </div>
+                      <div>
                         <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994072_a75.jpg"
                           width="75px" height="75px" onclick="showPicture(this);"/>
-                      </li>
-                      <li>
+                      </div>
+                      <div>
                         <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994074_a74.jpg"
                           width="75px" height="75px" onclick="showPicture(this);"/>
-                      </li>
-                      <li>
+                      </div>
+                      <div>
                         <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994075_a72.jpg"
                           width="75px" height="75px" onclick="showPicture(this);"/>
-                      </li>
-                      <li>
-                        <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994077_a7.jpg"
-                          width="75px" height="75px" onclick="myFunction(this);" />
-                      </li>
-                      <li>
-                        <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994077_a7.jpg" width="75px" height="75px"
-                          onclick="myFunction(this);" />
-                      </li>
-                      <li>
-                        <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994077_a7.jpg" width="75px" height="75px"
-                          onclick="myFunction(this);" />
-                      </li>
-                    </ul>
+                      </div>
+                      <div>
+                        <img src="https://static8.muarecdn.com/zoom,90/75_75/muare/images/2019/01/16/4994075_a72.jpg" width="75px" height="75px"
+                          onclick="showPicture(this);" />
+                      </div>
+                      
+
+                    </div>
                   </div>
-                  <div class="scroll scroll-left">
-                    <span class="icon-scroll-left"></span>
+                  <div class="scroll scroll-left" >
+                    <span class="icon-scroll-left" onclick="scrollright();"></span>
                   </div>
                   <div class="scroll scroll-right">
-                    <span class="icon-scroll-right"></span>
+                    <span class="icon-scroll-right" onclick="scrollleft();"></span>
                   </div>
                 </div>
                 <div class="view-caring">
