@@ -237,6 +237,7 @@
   background-color: #f4f7f8;
   margin-bottom: 15px;
 }
+
 .row-no-padding-v.box-right-v .seller-details-v .basic-info-v {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -311,8 +312,7 @@
   .seller-details-v
   .basic-info-v
   .basic-info-main-v
-  .register-date-v
-  {
+  .register-date-v {
   white-space: nowrap;
 }
 .row-no-padding-v.box-right-v
@@ -338,4 +338,181 @@
   .img-rounded-v
   .avatar-v {
   border-radius: 6px;
+}
+.row-no-padding-v.box-right-v .seller-details-v .seller-details-footer-v {
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.row-no-padding-v.box-right-v
+  .seller-details-v
+  .seller-details-footer-v
+  h2
+  .seller-details-link-v {
+  color: #1a9cb7;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+ul.nav-tabs > li.active > a {
+  border: none;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  color: #495057;
+}
+.nav-tab-right-v .tab-content-v {
+  margin-top: 5px;
+}
+.post-footer-v .box-input-comment-v {
+  width: 100%;
+}
+.item-comment-input-v {
+  display: table-cell;
+  vertical-align: top;
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  resize: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 0;
+  z-index: 0;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control.item-comment-input-v:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
+.post-footer-v .comments-list-v {
+  padding: 0;
+  list-style-type: none;
+}
+
+.post-footer-v .comments-list-v .comment-v {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+}
+.post-footer-v .comments-list-v .comment-v .avatar-v {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+.post-footer-v .comments-list-v .comment-v .comment-body-v {
+  border-bottom: 1px dashed #ccc;
+  margin-left: 50px;
+}
+.post-footer-v .comments-list-v .comment-v.comment-body-v .comment-heading-v {
+  display: block;
+  width: 100%;
+}
+.post-footer-v
+  .comments-list-v
+  .comment-v
+  .comment-body-v
+  .comment-heading-v
+  .user-v {
+  font-size: 13px;
+  display: inline;
+  margin-top: 0;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #000;
+}
+.post-footer-v .comments-list-v .comment-v .comment-heading-v .time-comment-v {
+  color: #948e8e;
+  font-size: 12px;
+  display: inline;
+  float: right;
+}
+.post-footer-v .comments-list-v .comment-v .comment-body-v .content-v {
+  font-size: 13px;
+  color: #000;
+  line-height: 15.6px;
+  word-wrap: break-word;
+  padding: 5px 0;
+  margin: 0;
+  width: 100%;
+}
+.post-footer-v .comments-list-v .comment-v .comment-body-v .reply-v {
+  cursor: pointer;
+  margin: 0;
+  color: #175f92;
+  font-size: 13px;
+}
+.post-footer-v .comments-list-v .comment-v > .comments-list-v {
+  margin-left: 50px;
+}
+.post-footer-v .comments-list-v .input-reply-v {
+  display: none;
+  margin-left: 45px;
+  padding-top: 10px;
+}
+.item-comment-input-v {
+  display: table-cell;
+  vertical-align: top;
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  resize: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 0;
+  z-index: 0;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#title-product-related-v {
+  font-size: 16px;
+  padding: 5px 0 0;
+  padding-left: 2px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.products_related_parent-v {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.offer-category-v {
+  display: table-cell;
+  width: 20%;
+  text-align: center;
+  padding: 0 5px;
+}
+.colum-offer-category-v .details-v .avatar-v img {
+  border-radius: 10px;
+  height: 130px;
+  width: 130px;
+  -webkit-box-shadow: 0 1px 20px #ccc;
+  box-shadow: 0 1px 20px #ccc;
+  border: 1px solid #ccc;
+}
+.title_products_related-v {
+  padding: 5px 0;
+  text-transform: capitalize;
+  height: 45px;
+  width: 100px;
+  display: inline-block;
+  overflow: hidden;
+}
+.title_products_related-v h2 {
+  font-size: 19px;
+  margin: 0;
+}
+.title_products_related-v .item_name-v {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.price_products_related-v {
+  color: #ec3030;
+  font-weight: 400;
 }
