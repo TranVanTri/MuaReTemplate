@@ -128,6 +128,7 @@ button {
   border-radius: 0px;
   font-size: 12px;
   width: 60%;
+  height: auto;
 }
 
 #logo-header .input-search:focus {
