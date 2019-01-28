@@ -722,6 +722,83 @@ button.button span {
   color: #000;
 }
 
+#menu-category .find .price .find-price .input-price-filter{
+  display: inline-block;
+}
+
+.find-price .input-price-filter .input-price {
+    width: 100%;
+    padding: 3px 0;
+    position: relative;
+}
+
+.find-price .input-price-filter .input-price label {
+    padding: 0 5px 0 0;
+    font-size: 13px;
+    color: #333;
+    font-weight: 300;
+    width: 24px;
+}
+.pull-left{
+  float: left;
+}
+
+.input-price-filter .input-price .price-input {
+    border-radius: 0;
+    width: 100px;
+    height: 26px;
+    padding: 6px 12px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.input-price-filter .input-price .price-input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.input-price-filter .input-price .vnd {
+    position: absolute;
+    left: 73%;
+    top: 8px;
+    font-size: 13px;
+    color: red;
+}
+
+.input-price-filter .input-price button {
+    background-color: #0383c4!important;
+    margin: 0;
+    height: 26px;
+    width: 26px;;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    margin-left: 1px;
+    margin-top: -3px;
+    vertical-align: middle;
+  }
+
+  #menu-category .find .price .find-price .view-all-price{
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: red;
+    font-size: 12px;
+  }
+
 /*************************END MENU LEFT CATEGORY***************************/
 
 /********************* MENU RIGHT - AD ************************************/
